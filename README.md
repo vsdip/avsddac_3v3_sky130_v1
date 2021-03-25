@@ -400,4 +400,4 @@ Shalini Kanna - kannashalini97@gmail.com
 
 Harshitha Basavaraju - harshithab0707@gmail.com
 
-Skandha Deepsita S- skandha.deepsita5@gmail.com
+Skandha Deepsita S, PhD Scholar @ IIITDM Kancheepuram; Contact:- skandha.deepsita5@gmail.com, linkedin.com/in/skandha-deepsita-sarvepalli-027433ba
