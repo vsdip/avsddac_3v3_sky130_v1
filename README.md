@@ -396,16 +396,17 @@ o   Open the terminal from the cloned folder or run bellow command after cloning
 
 o	Command to simulate .Spice files of conventional design layout
         
-        `
+        
     
 
 ## 9.Future Works
 
+Layout simulation of 10Bit Potentiometer DAC and plotting INL & DNL for 10Bit DAC layout. Runtime for layout can be reduced further.
 
 ## 10.Contributors
 
-Shalini Kanna - kannashalini97@gmail.com 
+Shalini Kanna, Masters of Science in Computer Engineering, University of Massachusetts Lowell, Lowell,MA, USA. Contact: kannashalini97@gmail.com, [LinkedIn](https://www.linkedin.com/in/shalini-kanna/)
 
-Harshitha Basavaraju - harshithab0707@gmail.com
+Harshitha Basavaraju, PhD Scholar @ Contact: harshithab0707@gmail.com
 
 Skandha Deepsita S, PhD Scholar @ IIITDM Kancheepuram; Contact:- skandha.deepsita5@gmail.com, linkedin.com/in/skandha-deepsita-sarvepalli-027433ba
