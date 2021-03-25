@@ -1,0 +1,85 @@
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+**.subckt 3bitdac_tb
+x1 x1_inp1 x1_inp2 x1_vdd 0 x1_d0 x1_d2 x1_d1 x1_out_v 3bitdac
+V1 x1_vdd 0 dc 3.3
+V2 x1_d0 0 PULSE 0 1.8 0ns 1p 1p 5u 10u
+V3 x1_d1 0 PULSE 0 1.8 0ns 1p 1p 10u 20u
+V4 x1_inp2 0 dc 0
+V5 x1_inp1 0 dc 3.3V
+V6 x1_d2 0 PULSE 0 1.8 0ns 1p 1p 20u 40u
+
+**.ends
+
+* expanding   symbol:  /home/harshitha/Desktop/xschem/xschem_library/3bitdac.sym # of pins=8
+
+
+.subckt 3bitdac inp1 inp2 vdd gnda d0 d2 d1 out_v
+*.ipin inp1
+*.ipin inp2
+*.iopin vdd
+*.iopin gnda
+*.ipin d0
+*.ipin d2
+*.ipin d1
+*.opin out_v
+R1 x1_vref5 x2_vref1 250 
+x1 vdd inp1 gnda x1_out_v d1 d0 x1_vref5 2bitdac
+x2 vdd x2_vref1 gnda x2_out_v d1 d0 inp2 2bitdac
+x3 x1_out_v vdd out_v d2 gnda x2_out_v TG2
+.ends
+
+* expanding   symbol:  /home/harshitha/Desktop/xschem/xschem_library/2bitdac.sym # of pins=7
+
+.subckt 2bitdac  vdd vref1 gnda out_v d1 d0 vref5
+*.ipin vref1
+*.ipin vref5
+*.ipin d0
+*.ipin d1
+*.iopin vdd
+*.iopin gnda
+*.opin out_v
+x1 x1_inp1 vdd x1_vout d0 gnda x1_inp2 TG2
+x2 x2_inp1 vdd x2_vout d0 gnda vref5 TG2
+x3 x1_vout vdd out_v d1 gnda x2_vout TG2
+R1 x1_inp1 vref1 500 
+R2 x1_inp2 x1_inp1 500
+R3 x2_inp1 x1_inp2 500
+R4 vref5 x2_inp1 250
+.ends
+
+
+* expanding   symbol:  /home/harshitha/Desktop/xschem/xschem_library/TG2.sym # of pins=6
+
+.subckt TG2  inp1 vdd vout din 0 inp2
+*.ipin inp1
+*.ipin inp2
+*.opin vout
+*.ipin din
+*.iopin vdd
+*.iopin gnda
+
+XM1 dinb din 0 0 sky130_fd_pr__nfet_01v8 L=0.15 W=06 
+XM2 dinb din vdd vdd sky130_fd_pr__pfet_01v8 L=0.15 W=1.2
+
+XM7 dd dinb 0 0 sky130_fd_pr__nfet_01v8 L=0.15 W=0.6
+XM8 dd dinb vdd vdd sky130_fd_pr__pfet_01v8 L=0.15 W=1.2
+
+XM3 vout dinb inp2 inp2 sky130_fd_pr__nfet_01v8 L=0.15 W=0.6
+XM4 inp1 dd vout vout sky130_fd_pr__nfet_01v8 L=0.15 W=0.6
+
+XM5 vout dinb inp1 inp1 sky130_fd_pr__pfet_01v8 L=0.15 W=1.2
+XM6 inp2 dd vout vout sky130_fd_pr__pfet_01v8 L=0.15 W=1.2
+
+.ends
+
+.tran 1n 40u
+.control
+run 
+plot x1_d0 x1_d1 x1_d2 x1_out_v
+
+.endc
+.end
+
+
+

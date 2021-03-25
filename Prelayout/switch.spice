@@ -1,0 +1,33 @@
+
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+XM1 dinb din 0 0 sky130_fd_pr__nfet_01v8 L=0.15 W=0.6 
+XM2 dinb din vdd vdd sky130_fd_pr__pfet_01v8 L=0.15 W=1.2
+
+XM7 dd dinb 0 0 sky130_fd_pr__nfet_01v8 L=0.15 W=0.6
+XM8 dd dinb vdd vdd sky130_fd_pr__pfet_01v8 L=0.15 W=1.2
+
+XM3 vout dinb inp2 inp2 sky130_fd_pr__nfet_01v8 L=0.15 W=0.6
+XM4 inp1 dd vout vout sky130_fd_pr__nfet_01v8 L=0.15 W=0.6
+
+XM5 vout dinb inp1 inp1 sky130_fd_pr__pfet_01v8 L=0.15 W=1.2
+XM6 inp2 dd vout vout sky130_fd_pr__pfet_01v8 L=0.15 W=1.2 
+
+
+V1 din 0 PULSE 0 1.8 0ns 100p 100p 5n 10n
+V2 vdd 0 dc 3.3V
+V4 inp2 0 dc 0
+V3 inp1 0 dc 1.65
+
+
+.tran 0.1n 10n
+.control
+run 
+plot din dinb 
+plot inp1 inp2
+plot vout
+.endc
+.end
+
+
+

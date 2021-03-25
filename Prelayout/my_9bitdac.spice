@@ -1,0 +1,213 @@
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+**.subckt 9bitdac_tb
+x1 x1_inp1 x1_inp2 x1_vdd 0 x1_d0 x1_d1 x1_out_v x1_d2 x1_d3 x1_d4 x1_d5 x1_d6 x1_d7 x1_d8 9bitdac
+V1 x1_vdd 0 dc 3.3V
+V2 x1_d0 0 PULSE 0 1.8 0 1p 1p 5u 10u
+V3 x1_d1 0 PULSE 0 1.8 0 1p 1p 10u 20u
+V4 x1_inp2 0 dc 0
+V5 x1_inp1 0 dc 3.3V
+V6 x1_d2 0 PULSE 0 1.8 0 1p 1p 20u 40u
+V7 x1_d3 0 PULSE 0 1.8 0 1p 1p 40u 80u
+V8 x1_d4 0 PULSE 0 1.8 0 1p 1p 80u 160u
+V9 x1_d5 0 PULSE 0 1.8 0 1p 1p 160u 320u
+V10 x1_d6 0 PULSE 0 1.8 0 1p 1p 320u 640u
+V11 x1_d7 0 PULSE 0 1.8 0 1p 1p 640u 1280u
+V12 x1_d8 0 PULSE 0 1.8 0 1p 1p 1280u 2560u
+C1 x1_out_v 0 500f
+**.ends
+
+* expanding   symbol:  /home/harshitha/Desktop/xschem/xschem_library/9bitdac.sym # of pins=14
+
+.subckt 9bitdac inp1 inp2 vdd gnda d0 d1 out_v d2 d3 d4 d5 d6 d7 d8
+*.ipin inp1
+*.ipin inp2
+*.iopin vdd
+*.iopin gnda
+*.ipin d0
+*.ipin d1
+*.opin out_v
+*.ipin d2
+*.ipin d3
+*.ipin d4
+*.ipin d5
+*.ipin d6
+*.ipin d7
+*.ipin d8
+R1 x1_vref5 x2_vref1 250
+x3 x1_out_v vdd out_v d8 gnda x2_out_v TG2
+x1 inp1 x1_vref5 vdd gnda d0 d1 x1_out_v d2 d3 d4 d5 d6 d7 8bitdac
+x2 x2_vref1 inp2 vdd gnda d0 d1 x2_out_v d2 d3 d4 d5 d6 d7 8bitdac
+.ends
+
+
+* expanding   symbol:  /home/harshitha/Desktop/xschem/xschem_library/8bitdac.sym # of pins=13
+
+.subckt 8bitdac inp1 inp2 vdd gnda d0 d1 out_v d2 d3 d4 d5 d6 d7
+*.ipin inp1
+*.ipin inp2
+*.iopin vdd
+*.iopin gnda
+*.ipin d0
+*.ipin d1
+*.opin out_v
+*.ipin d2
+*.ipin d3
+*.ipin d4
+*.ipin d5
+*.ipin d6
+*.ipin d7
+R1 x1_vref5 x2_vref1 250
+x3 x1_out_v vdd out_v d7 gnda x2_out_v TG2
+x1 inp1 x1_vref5 vdd gnda d0 d1 x1_out_v d2 d3 d4 d5 d6 7bitdac
+x2 x2_vref1 inp2 vdd gnda d0 d1 x2_out_v d2 d3 d4 d5 d6 7bitdac
+.ends
+
+* expanding   symbol:  /home/harshitha/Desktop/xschem/xschem_library/7bitdac.sym # of pins=12
+.subckt 7bitdac inp1 inp2 vdd gnda d0 d1 out_v d2 d3 d4 d5 d6
+*.ipin inp1
+*.ipin inp2
+*.iopin vdd
+*.iopin gnda
+*.ipin d0
+*.ipin d1
+*.opin out_v
+*.ipin d2
+*.ipin d3
+*.ipin d4
+*.ipin d5
+*.ipin d6
+R1 x1_vref5 x2_vref1 250
+x3 x1_out_v vdd out_v d6 gnda x2_out_v TG2
+x1 inp1 x1_vref5 vdd gnda d0 d1 x1_out_v d2 d3 d4 d5 6bitdac
+x2 x2_vref1 inp2 vdd gnda d0 d1 x2_out_v d2 d3 d4 d5 6bitdac
+.ends
+
+* expanding   symbol:  /home/harshitha/Desktop/xschem/xschem_library/6bitdac.sym # of pins=11
+
+
+.subckt 6bitdac inp1 inp2 vdd gnda d0 d1 out_v d2 d3 d4 d5
+*.ipin inp1
+*.ipin inp2
+*.iopin vdd
+*.iopin gnda
+*.ipin d0
+*.ipin d1
+*.opin out_v
+*.ipin d2
+*.ipin d3
+*.ipin d4
+*.ipin d5
+R1 x1_vref5 x2_vref1 250
+x3 x1_out_v vdd out_v d5 gnda x2_out_v TG2
+x1 inp1 x1_vref5 vdd gnda d0 d4 d1 x1_out_v d2 d3 5bitdac
+x2 x2_vref1 inp2 vdd gnda d0 d4 d1 x2_out_v d2 d3 5bitdac
+.ends
+
+* expanding   symbol:  /home/harshitha/Desktop/xschem/xschem_library/5bitdac.sym # of pins=10
+
+.subckt 5bitdac inp1 inp2 vdd gnda d0 d4 d1 out_v d2 d3
+*.ipin inp1
+*.ipin inp2
+*.iopin vdd
+*.iopin gnda
+*.ipin d0
+*.ipin d4
+*.ipin d1
+*.opin out_v
+*.ipin d2
+*.ipin d3
+R1 x1_vref5 x2_vref1 250 
+x3 x1_out_v vdd out_v d4 gnda x2_out_v TG2
+x1 inp1 x1_vref5 vdd gnda d0 d3 d1 x1_out_v d2 4bitdac
+x2 x2_vref1 inp2 vdd gnda d0 d3 d1 x2_out_v d2 4bitdac
+.ends
+
+
+.subckt 4bitdac inp1 inp2 vdd gnda d0 d3 d1 out_v d2
+*.ipin inp1
+*.ipin inp2
+*.iopin vdd
+*.iopin gnda
+*.ipin d0
+*.ipin d3
+*.ipin d1
+*.opin out_v
+*.ipin d2
+R1 x2_vref1 x1_vref5 250
+x3 x1_out_v vdd out_v d3 gnda x2_out_v TG2
+x1 inp1 x1_vref5 vdd gnda d0 d2 d1 x1_out_v 3bitdac
+x2 x2_vref1 inp2 vdd  gnda d0 d2 d1 x2_out_v 3bitdac
+.ends
+
+* expanding   symbol:  /home/harshitha/Desktop/xschem/xschem_library/3bitdac.sym # of pins=8
+
+
+.subckt 3bitdac inp1 inp2 vdd gnda d0 d2 d1 out_v
+*.ipin inp1
+*.ipin inp2
+*.iopin vdd
+*.iopin gnda
+*.ipin d0
+*.ipin d2
+*.ipin d1
+*.opin out_v
+R1 x1_vref5 x2_vref1 250 
+x1 vdd inp1 gnda x1_out_v d1 d0 x1_vref5 2bitdac
+x2 vdd x2_vref1 gnda x2_out_v d1 d0 inp2 2bitdac
+x3 x1_out_v vdd out_v d2 gnda x2_out_v TG2
+.ends
+
+* expanding   symbol:  /home/harshitha/Desktop/xschem/xschem_library/2bitdac.sym # of pins=7
+
+.subckt 2bitdac  vdd vref1 gnda out_v d1 d0 vref5
+*.ipin vref1
+*.ipin vref5
+*.ipin d0
+*.ipin d1
+*.iopin vdd
+*.iopin gnda
+*.opin out_v
+x1 x1_inp1 vdd x1_vout d0 gnda x1_inp2 TG2
+x2 x2_inp1 vdd x2_vout d0 gnda vref5 TG2
+x3 x1_vout vdd out_v d1 gnda x2_vout TG2
+R1 x1_inp1 vref1 500
+R2 x1_inp2 x1_inp1 500
+R3 x2_inp1 x1_inp2 500
+R4 vref5 x2_inp1 250
+.ends
+
+
+* expanding   symbol:  /home/harshitha/Desktop/xschem/xschem_library/TG2.sym # of pins=6
+
+.subckt TG2  inp1 vdd vout din 0 inp2
+*.ipin inp1
+*.ipin inp2
+*.opin vout
+*.ipin din
+*.iopin vdd
+*.iopin gnda
+
+XM1 dinb din 0 0 sky130_fd_pr__nfet_01v8 L=0.15 W=0.6 
+XM2 dinb din vdd vdd sky130_fd_pr__pfet_01v8 L=0.15 W=1.2
+
+XM7 dd dinb 0 0 sky130_fd_pr__nfet_01v8 L=0.15 W=0.6
+XM8 dd dinb vdd vdd sky130_fd_pr__pfet_01v8 L=0.15 W=1.2
+
+XM3 vout dinb inp2 inp2 sky130_fd_pr__nfet_01v8 L=0.15 W=0.6
+XM4 inp1 dd vout vout sky130_fd_pr__nfet_01v8 L=0.15 W=0.6
+
+XM5 vout dinb inp1 inp1 sky130_fd_pr__pfet_01v8 L=0.15 W=1.2
+XM6 inp2 dd vout vout sky130_fd_pr__pfet_01v8 L=0.15 W=1.2 
+
+.ends
+
+.tran 2u 2560u
+.control
+run 
+plot x1_d0 x1_d1 x1_d2 x1_d3 x1_d4 x1_d5 x1_d6 x1_d7 x1_d8 
+plot x1_out_v
+
+.endc
+.end
+
