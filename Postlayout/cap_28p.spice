@@ -1,0 +1,8 @@
+* SPICE3 file created from cap_28p.ext - technology: sky130A
+
+.option scale=10000u
+
+X0 c1_n260_n442# m3_n984_n1226# sky130_fd_pr__cap_mim_m3_1 l=12148 w=12063
+C0 m1_n984_n1226# m3_n984_n1226# 635.31fF
+C1 m3_n984_n1226# SUB 22.25fF
+C2 m1_n984_n1226# SUB 494.19fF **FLOATING
