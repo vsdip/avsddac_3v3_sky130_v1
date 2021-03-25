@@ -1,7 +1,7 @@
 
 *Model Description
 .para temp =27 
-.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+.lib "../sky130_fd_pr/models/sky130.lib.spice" tt
 
 V1 vdd 0 dc 3.3V
 V2 d0 0 PULSE 0 1.8 0ns 1p 1p 5u 10u
