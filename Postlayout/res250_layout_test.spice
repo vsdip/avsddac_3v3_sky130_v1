@@ -2,7 +2,7 @@
 * Resistor value test
 
 * Include SkyWater sky130 device models
-.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+.lib "../sky130_fd_pr/models/sky130.lib.spice" tt
 
 
 * Simple voltage across a modeled device resistor
