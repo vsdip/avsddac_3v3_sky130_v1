@@ -1,0 +1,90 @@
+*Model Description
+.param temp=27
+
+
+*Including sky130 library files
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+V1 vdd 0 dc 3.3V
+V2 d0 0 PULSE 0 1.8 0 100p 100p 5u 10u
+V3 d1 0 PULSE 0 1.8 0 100p 100p 10u 20u
+V4 inp2 0 dc 0V
+V5 inp1 0 dc 3.3V
+V6 d2 0 PULSE 0 1.8 0 100p 100p 20u 40u
+
+X0 switch_layout_0/dd switch_layout_0/dinb 0 0 sky130_fd_pr__nfet_01v8 w=0.61 l=0.15
+X1 switch_layout_0/dd switch_layout_0/dinb vdd vdd sky130_fd_pr__pfet_01v8 w=1.2 l=0.15
+X2 switch_layout_0/dinb d2 0 0 sky130_fd_pr__nfet_01v8 w=0.61 l=0.15
+X3 switch_layout_0/dinb d2 vdd vdd sky130_fd_pr__pfet_01v8 w=1.2 l=0.15
+X4 x1_out_v switch_layout_0/dd out_v 0 sky130_fd_pr__nfet_01v8 w=0.6 l=0.15
+X5 out_v switch_layout_0/dinb x1_out_v switch_layout_0/w_583_327# sky130_fd_pr__pfet_01v8 w=1.21 l=0.15
+X6 x2_out_v switch_layout_0/dd out_v switch_layout_0/w_908_86# sky130_fd_pr__pfet_01v8 w=1.2 l=0.15
+X7 out_v switch_layout_0/dinb x2_out_v 0 sky130_fd_pr__nfet_01v8 w=0.6 l=0.15
+X8 2bitdac_layout_0/switch_layout_0/dd 2bitdac_layout_0/switch_layout_0/dinb 0 0 sky130_fd_pr__nfet_01v8 w=0.61 l=0.15
+X9 2bitdac_layout_0/switch_layout_0/dd 2bitdac_layout_0/switch_layout_0/dinb vdd vdd sky130_fd_pr__pfet_01v8 w=1.2 l=0.15
+X10 2bitdac_layout_0/switch_layout_0/dinb d0 0 0 sky130_fd_pr__nfet_01v8 w=0.61 l=0.15
+X11 2bitdac_layout_0/switch_layout_0/dinb d0 vdd vdd sky130_fd_pr__pfet_01v8 w=1.2 l=0.15
+X12 2bitdac_layout_0/x1_inp1 2bitdac_layout_0/switch_layout_0/dd 2bitdac_layout_0/x1_vout 0 sky130_fd_pr__nfet_01v8 w=0.6 l=0.15
+X13 2bitdac_layout_0/x1_vout 2bitdac_layout_0/switch_layout_0/dinb 2bitdac_layout_0/x1_inp1 2bitdac_layout_0/switch_layout_0/w_583_327# sky130_fd_pr__pfet_01v8 w=1.21 l=0.15
+X14 2bitdac_layout_0/x1_inp2 2bitdac_layout_0/switch_layout_0/dd 2bitdac_layout_0/x1_vout 2bitdac_layout_0/switch_layout_0/w_908_86# sky130_fd_pr__pfet_01v8 w=1.2 l=0.15
+X15 2bitdac_layout_0/x1_vout 2bitdac_layout_0/switch_layout_0/dinb 2bitdac_layout_0/x1_inp2 0 sky130_fd_pr__nfet_01v8 w=0.6 l=0.15
+X16 2bitdac_layout_0/switch_layout_1/dd 2bitdac_layout_0/switch_layout_1/dinb 0 0 sky130_fd_pr__nfet_01v8 w=0.61 l=0.15
+X17 2bitdac_layout_0/switch_layout_1/dd 2bitdac_layout_0/switch_layout_1/dinb vdd vdd sky130_fd_pr__pfet_01v8 w=1.2 l=0.15
+X18 2bitdac_layout_0/switch_layout_1/dinb d0 0 0 sky130_fd_pr__nfet_01v8 w=0.61 l=0.15
+X19 2bitdac_layout_0/switch_layout_1/dinb d0 vdd vdd sky130_fd_pr__pfet_01v8 w=1.2 l=0.15
+X20 2bitdac_layout_0/x2_inp1 2bitdac_layout_0/switch_layout_1/dd 2bitdac_layout_0/x2_vout 0 sky130_fd_pr__nfet_01v8 w=0.6 l=0.15
+X21 2bitdac_layout_0/x2_vout 2bitdac_layout_0/switch_layout_1/dinb 2bitdac_layout_0/x2_inp1 2bitdac_layout_0/switch_layout_1/w_583_327# sky130_fd_pr__pfet_01v8 w=1.21 l=0.15
+X22 x1_vref5 2bitdac_layout_0/switch_layout_1/dd 2bitdac_layout_0/x2_vout 2bitdac_layout_0/switch_layout_1/w_908_86# sky130_fd_pr__pfet_01v8 w=1.2 l=0.15
+X23 2bitdac_layout_0/x2_vout 2bitdac_layout_0/switch_layout_1/dinb x1_vref5 0 sky130_fd_pr__nfet_01v8 w=0.6 l=0.15
+X24 2bitdac_layout_0/switch_layout_2/dd 2bitdac_layout_0/switch_layout_2/dinb 0 0 sky130_fd_pr__nfet_01v8 w=0.61 l=0.15
+X25 2bitdac_layout_0/switch_layout_2/dd 2bitdac_layout_0/switch_layout_2/dinb vdd vdd sky130_fd_pr__pfet_01v8 w=1.2 l=0.15
+X26 2bitdac_layout_0/switch_layout_2/dinb d1 0 0 sky130_fd_pr__nfet_01v8 w=0.61 l=0.15
+X27 2bitdac_layout_0/switch_layout_2/dinb d1 vdd vdd sky130_fd_pr__pfet_01v8 w=1.2 l=0.15
+X28 2bitdac_layout_0/x1_vout 2bitdac_layout_0/switch_layout_2/dd x1_out_v 0 sky130_fd_pr__nfet_01v8 w=0.6 l=0.15
+X29 x1_out_v 2bitdac_layout_0/switch_layout_2/dinb 2bitdac_layout_0/x1_vout 2bitdac_layout_0/switch_layout_2/w_583_327# sky130_fd_pr__pfet_01v8 w=1.21 l=0.15
+X30 2bitdac_layout_0/x2_vout 2bitdac_layout_0/switch_layout_2/dd x1_out_v 2bitdac_layout_0/switch_layout_2/w_908_86# sky130_fd_pr__pfet_01v8 w=1.2 l=0.15
+X31 x1_out_v 2bitdac_layout_0/switch_layout_2/dinb 2bitdac_layout_0/x2_vout 0 sky130_fd_pr__nfet_01v8 w=0.6 l=0.15
+X32 2bitdac_layout_0/x1_inp1 2bitdac_layout_0/x1_inp2 0 sky130_fd_pr__res_generic_nd w=0.27 l=1.24
+X33 2bitdac_layout_0/x1_inp2 2bitdac_layout_0/x2_inp1 0 sky130_fd_pr__res_generic_nd w=0.27 l=1.24
+X34 inp1 2bitdac_layout_0/x1_inp1 0 sky130_fd_pr__res_generic_nd w=0.27 l=1.24
+X35 2bitdac_layout_0/x2_inp1 x1_vref5 0 sky130_fd_pr__res_generic_nd w=0.29 l=0.65
+X36 2bitdac_layout_1/switch_layout_0/dd 2bitdac_layout_1/switch_layout_0/dinb 0 0 sky130_fd_pr__nfet_01v8 w=0.61 l=0.15
+X37 2bitdac_layout_1/switch_layout_0/dd 2bitdac_layout_1/switch_layout_0/dinb vdd vdd sky130_fd_pr__pfet_01v8 w=1.2 l=0.15
+X38 2bitdac_layout_1/switch_layout_0/dinb d0 0 0 sky130_fd_pr__nfet_01v8 w=0.61 l=0.15
+X39 2bitdac_layout_1/switch_layout_0/dinb d0 vdd vdd sky130_fd_pr__pfet_01v8 w=1.2 l=0.15
+X40 2bitdac_layout_1/x1_inp1 2bitdac_layout_1/switch_layout_0/dd 2bitdac_layout_1/x1_vout 0 sky130_fd_pr__nfet_01v8 w=0.6 l=0.15
+X41 2bitdac_layout_1/x1_vout 2bitdac_layout_1/switch_layout_0/dinb 2bitdac_layout_1/x1_inp1 2bitdac_layout_1/switch_layout_0/w_583_327# sky130_fd_pr__pfet_01v8 w=1.21 l=0.15
+X42 2bitdac_layout_1/x1_inp2 2bitdac_layout_1/switch_layout_0/dd 2bitdac_layout_1/x1_vout 2bitdac_layout_1/switch_layout_0/w_908_86# sky130_fd_pr__pfet_01v8 w=1.2 l=0.15
+X43 2bitdac_layout_1/x1_vout 2bitdac_layout_1/switch_layout_0/dinb 2bitdac_layout_1/x1_inp2 0 sky130_fd_pr__nfet_01v8 w=0.6 l=0.15
+X44 2bitdac_layout_1/switch_layout_1/dd 2bitdac_layout_1/switch_layout_1/dinb 0 0 sky130_fd_pr__nfet_01v8 w=0.61 l=0.15
+X45 2bitdac_layout_1/switch_layout_1/dd 2bitdac_layout_1/switch_layout_1/dinb vdd vdd sky130_fd_pr__pfet_01v8 w=1.2 l=0.15
+X46 2bitdac_layout_1/switch_layout_1/dinb d0 0 0 sky130_fd_pr__nfet_01v8 w=0.61 l=0.15
+X47 2bitdac_layout_1/switch_layout_1/dinb d0 vdd vdd sky130_fd_pr__pfet_01v8 w=1.2 l=0.15
+X48 2bitdac_layout_1/x2_inp1 2bitdac_layout_1/switch_layout_1/dd 2bitdac_layout_1/x2_vout 0 sky130_fd_pr__nfet_01v8 w=0.6 l=0.15
+X49 2bitdac_layout_1/x2_vout 2bitdac_layout_1/switch_layout_1/dinb 2bitdac_layout_1/x2_inp1 2bitdac_layout_1/switch_layout_1/w_583_327# sky130_fd_pr__pfet_01v8 w=1.21 l=0.15
+X50 inp2 2bitdac_layout_1/switch_layout_1/dd 2bitdac_layout_1/x2_vout 2bitdac_layout_1/switch_layout_1/w_908_86# sky130_fd_pr__pfet_01v8 w=1.2 l=0.15
+X51 2bitdac_layout_1/x2_vout 2bitdac_layout_1/switch_layout_1/dinb inp2 0 sky130_fd_pr__nfet_01v8 w=0.6 l=0.15
+X52 2bitdac_layout_1/switch_layout_2/dd 2bitdac_layout_1/switch_layout_2/dinb 0 0 sky130_fd_pr__nfet_01v8 w=0.61 l=0.15
+X53 2bitdac_layout_1/switch_layout_2/dd 2bitdac_layout_1/switch_layout_2/dinb vdd vdd sky130_fd_pr__pfet_01v8 w=1.2 l=0.15
+X54 2bitdac_layout_1/switch_layout_2/dinb d1 0 0 sky130_fd_pr__nfet_01v8 w=0.61 l=0.15
+X55 2bitdac_layout_1/switch_layout_2/dinb d1 vdd vdd sky130_fd_pr__pfet_01v8 w=1.2 l=0.15
+X56 2bitdac_layout_1/x1_vout 2bitdac_layout_1/switch_layout_2/dd x2_out_v 0 sky130_fd_pr__nfet_01v8 w=0.6 l=0.15
+X57 x2_out_v 2bitdac_layout_1/switch_layout_2/dinb 2bitdac_layout_1/x1_vout 2bitdac_layout_1/switch_layout_2/w_583_327# sky130_fd_pr__pfet_01v8 w=1.21 l=0.15
+X58 2bitdac_layout_1/x2_vout 2bitdac_layout_1/switch_layout_2/dd x2_out_v 2bitdac_layout_1/switch_layout_2/w_908_86# sky130_fd_pr__pfet_01v8 w=1.2 l=0.15
+X59 x2_out_v 2bitdac_layout_1/switch_layout_2/dinb 2bitdac_layout_1/x2_vout 0 sky130_fd_pr__nfet_01v8 w=0.6 l=0.15
+X60 2bitdac_layout_1/x1_inp1 2bitdac_layout_1/x1_inp2 0 sky130_fd_pr__res_generic_nd w=0.27 l=1.24
+X61 2bitdac_layout_1/x1_inp2 2bitdac_layout_1/x2_inp1 0 sky130_fd_pr__res_generic_nd w=0.27 l=1.24
+X62 x2_vref1 2bitdac_layout_1/x1_inp1 0 sky130_fd_pr__res_generic_nd w=0.27 l=1.24
+X63 2bitdac_layout_1/x2_inp1 inp2 0 sky130_fd_pr__res_generic_nd w=0.29 l=0.65
+X64 x1_vref5 x2_vref1 0 sky130_fd_pr__res_generic_nd w=0.29 l=0.65
+X65 out_v 0 sky130_fd_pr__cap_mim_m3_1 W=25 L=25 MF=1
+C0 vdd 0 15.39fF
+C1 d0 0 5.11fF
+
+.tran 0.1u 40u
+.control
+run 
+plot d0 d1 d2 out_v
+plot out_v
+.endc
+.end

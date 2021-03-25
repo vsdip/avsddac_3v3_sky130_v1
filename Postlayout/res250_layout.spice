@@ -1,0 +1,5 @@
+* SPICE3 file created from resistor_nd_l65.ext - technology: sky130A
+
+.option scale=10000u
+
+X0 a_119_n123# a_205_n124# SUB sky130_fd_pr__res_generic_nd w=29 l=65

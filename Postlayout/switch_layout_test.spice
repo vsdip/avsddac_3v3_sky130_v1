@@ -1,0 +1,29 @@
+*Model Description
+.para temp =27 
+
+* SPICE3 file created from switch.ext - technology: sky130A
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+X0 dd dinb 0 0 sky130_fd_pr__nfet_01v8 w=0.61 l=0.15
+X1 dd dinb vdd vdd sky130_fd_pr__pfet_01v8 w=1.20 l=0.15
+X2 dinb din 0 0 sky130_fd_pr__nfet_01v8 w=0.61 l=0.15
+X3 dinb din vdd vdd sky130_fd_pr__pfet_01v8 w=1.20 l=0.15
+X4 inp1 dd vout vout sky130_fd_pr__nfet_01v8 w=0.60 l=0.15
+X5 vout dinb inp1 inp1 sky130_fd_pr__pfet_01v8 w=1.21 l=0.15
+X6 inp2 dd vout vout sky130_fd_pr__pfet_01v8 w=1.20 l=0.15
+X7 vout dinb inp2 inp2 sky130_fd_pr__nfet_01v8 w=0.60 l=0.15
+C0 vdd 0 2.33fF
+
+V1 din 0 PULSE 0 1.8 0ns 100p 100p 5u 10u
+V2 vdd 0 dc 3.3V
+V4 inp2 0 dc 0
+V3 inp1 0 dc 3.3V
+
+.tran 1n 10u
+.control
+run 
+plot din dinb 
+plot inp1 inp2
+plot vout
+.endc
+.end

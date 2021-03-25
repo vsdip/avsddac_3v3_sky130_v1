@@ -1,0 +1,129 @@
+timestamp 1616476056
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 1e+06
+resistclasses 2200000 3050000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+use res250_layout res250_layout_0 0 -1 -24 1 0 -334
+use switch_layout switch_layout_0 1 0 5477 0 1 -227
+use 3bitdac_layout 3bitdac_layout_0 1 0 27 0 1 1530
+use 3bitdac_layout 3bitdac_layout_1 1 0 24 0 1 -1477
+node "gnd!" 32 4625.03 5546 -139 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4234 262 113389 10742 0 0 0 0 0 0 0 0
+node "vdd!" 6 3637.27 5916 264 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1833 172 3268 248 4256 298 174185 9014 0 0 0 0
+node "inp2" 16 82.688 5 -3024 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1240 142 0 0 0 0 0 0 0 0 0 0 0 0
+node "x2_out_v" 1128 3442.64 4986 -1292 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 85525 5684 0 0 0 0 0 0 0 0 0 0 0 0
+node "d3" 13 106.478 5479 32 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2021 180 0 0 0 0 0 0 0 0 0 0 0 0
+node "out_v" 32 127.458 6679 112 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2340 216 323 72 0 0 0 0 0 0 0 0 0 0
+node "x2_vref1" 111 299.39 20 -311 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5700 506 0 0 0 0 0 0 0 0 0 0 0 0
+node "x1_vref5" 145 367.645 10 0 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6904 622 0 0 0 0 0 0 0 0 0 0 0 0
+node "d0" 468 1345.12 393 -296 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19426 1768 8553 800 0 0 0 0 0 0 0 0 0 0
+node "d1" 507 2082.72 1939 -338 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44223 2772 16753 1122 0 0 0 0 0 0 0 0 0 0
+node "d2" 678 4061.2 3695 -60 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128062 5424 36641 1570 0 0 0 0 0 0 0 0 0 0
+node "x1_out_v" 1328 3657.58 5048 1714 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 83561 6088 0 0 0 0 0 0 0 0 0 0 0 0
+node "inp1" 17 80.192 116 2701 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1160 138 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "SUB" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "x1_vref5" "x2_vref1" 6.41716
+cap "vdd!" "gnd!" 41.112
+cap "d2" "vdd!" 54.374
+cap "d2" "gnd!" 62.1312
+cap "gnd!" "3bitdac_layout_1/vdd!" 26.562
+cap "3bitdac_layout_1/x2_out_v" "gnd!" 42.0948
+cap "gnd!" "3bitdac_layout_1/vdd!" 45.682
+cap "3bitdac_layout_1/d2" "3bitdac_layout_1/switch_layout_0/INV_0/a_80_n121#" 28.1044
+cap "3bitdac_layout_1/d2" "3bitdac_layout_1/switch_layout_0/INV_0/w_0_0#" 72.9305
+subcap "x2_out_v" -3297.69
+subcap "x2_out_v" -2928.42
+subcap "d0" -292.723
+cap "res250_layout_0/a_119_n123#" "3bitdac_layout_1/2bitdac_layout_0/x1_inp1" 13.1968
+cap "res250_layout_0/a_205_n124#" "res250_layout_0/a_119_n123#" 8.97959
+cap "3bitdac_layout_1/2bitdac_layout_0/switch_layout_0/din" "3bitdac_layout_1/2bitdac_layout_0/x1_inp1" 133.407
+cap "3bitdac_layout_1/2bitdac_layout_0/switch_layout_0/din" "3bitdac_layout_1/2bitdac_layout_0/switch_layout_0/dinb" 28.6878
+cap "3bitdac_layout_1/2bitdac_layout_0/switch_layout_0/vdd!" "3bitdac_layout_1/2bitdac_layout_0/switch_layout_0/din" 96.8751
+subcap "d1" -1026.22
+cap "3bitdac_layout_1/2bitdac_layout_0/d1" "3bitdac_layout_1/2bitdac_layout_0/x1_vout" 83.6565
+cap "3bitdac_layout_1/2bitdac_layout_0/d1" "3bitdac_layout_1/2bitdac_layout_0/switch_layout_2/vdd!" 66.9534
+cap "3bitdac_layout_1/2bitdac_layout_0/d1" "3bitdac_layout_1/2bitdac_layout_0/switch_layout_2/dinb" 13.1658
+subcap "d1" -2299.87
+cap "3bitdac_layout_1/2bitdac_layout_0/d1" "3bitdac_layout_1/2bitdac_layout_0/switch_layout_2/dinb" 13.1658
+cap "3bitdac_layout_1/2bitdac_layout_0/d1" "3bitdac_layout_1/2bitdac_layout_0/switch_layout_2/vdd!" 35.5012
+subcap "d2" -3941.06
+cap "3bitdac_layout_1/x1_out_v" "gnd!" 47.0558
+cap "3bitdac_layout_1/vdd!" "gnd!" 38.512
+subcap "d2" -3149.1
+cap "d2" "3bitdac_layout_1/x1_out_v" 148.569
+cap "d2" "3bitdac_layout_1/vdd!" 52.2928
+subcap "gnd!" -4528.82
+subcap "gnd!" -6145.64
+subcap "x2_vref1" -240.619
+subcap "d0" -69.8771
+cap "3bitdac_layout_0/2bitdac_layout_1/switch_layout_1/din" "3bitdac_layout_0/2bitdac_layout_1/switch_layout_1/gnd!" 91.7951
+cap "res250_layout_0/a_119_n123#" "3bitdac_layout_1/2bitdac_layout_0/x1_inp1" 5.64865
+cap "3bitdac_layout_0/2bitdac_layout_1/switch_layout_1/din" "3bitdac_layout_0/2bitdac_layout_1/switch_layout_1/dinb" 12.3297
+cap "3bitdac_layout_0/2bitdac_layout_1/switch_layout_1/din" "3bitdac_layout_1/2bitdac_layout_0/x1_inp1" 125.18
+cap "res250_layout_0/a_119_n123#" "res250_layout_0/a_205_n124#" 22.3629
+cap "3bitdac_layout_0/2bitdac_layout_1/switch_layout_1/din" "res250_layout_0/a_205_n124#" 111.405
+cap "3bitdac_layout_0/2bitdac_layout_1/switch_layout_1/din" "3bitdac_layout_0/2bitdac_layout_1/x2_inp1" 6.63548
+subcap "d1" -1339.64
+cap "3bitdac_layout_1/2bitdac_layout_0/vdd!" "d1" 41.068
+cap "3bitdac_layout_0/2bitdac_layout_1/x2_vout" "3bitdac_layout_0/2bitdac_layout_1/switch_layout_2/gnd!" -0.9576
+cap "d1" "3bitdac_layout_0/2bitdac_layout_1/switch_layout_2/gnd!" 433.288
+cap "d1" "3bitdac_layout_0/2bitdac_layout_1/x2_vout" 101.379
+subcap "d1" -1861.19
+subcap "d2" -4453.88
+cap "3bitdac_layout_1/vdd!" "gnd!" 46.816
+subcap "d2" -3160.19
+cap "d2" "3bitdac_layout_1/vdd!" -0.5304
+cap "3bitdac_layout_0/gnd!" "gnd!" 72.2222
+cap "d2" "3bitdac_layout_0/gnd!" 324.121
+cap "3bitdac_layout_0/gnd!" "3bitdac_layout_1/vdd!" 50.528
+subcap "gnd!" -4046.16
+subcap "gnd!" -3770.72
+subcap "vdd!" -1265.03
+cap "switch_layout_0/INV_1/a_80_n121#" "switch_layout_0/vdd!" 72.7553
+cap "switch_layout_0/inp1" "switch_layout_0/dd" 52.7044
+cap "3bitdac_layout_0/2bitdac_layout_1/d1" "3bitdac_layout_0/2bitdac_layout_1/x2_vout" 10.7885
+cap "3bitdac_layout_0/2bitdac_layout_1/d1" "3bitdac_layout_0/2bitdac_layout_1/switch_layout_2/INV_0/a_80_n121#" 5.92408
+cap "3bitdac_layout_0/2bitdac_layout_1/d1" "3bitdac_layout_0/2bitdac_layout_1/switch_layout_2/INV_0/a_10_n215#" 253.066
+cap "3bitdac_layout_0/2bitdac_layout_1/switch_layout_2/INV_0/a_10_n215#" "3bitdac_layout_0/2bitdac_layout_1/d1" 14.694
+cap "3bitdac_layout_0/2bitdac_layout_1/d1" "3bitdac_layout_0/2bitdac_layout_1/switch_layout_2/INV_0/a_80_n121#" 5.92408
+cap "vdd!" "3bitdac_layout_0/x2_out_v" 36.5912
+cap "vdd!" "d2" -0.078
+cap "d2" "3bitdac_layout_0/x2_out_v" 135.208
+cap "3bitdac_layout_0/gnd!" "d2" 842.043
+cap "vdd!" "3bitdac_layout_0/gnd!" 35.68
+cap "3bitdac_layout_0/gnd!" "3bitdac_layout_0/x2_out_v" -2.0672
+cap "3bitdac_layout_0/d2" "3bitdac_layout_0/switch_layout_0/INV_0/a_80_n121#" 12.678
+cap "3bitdac_layout_0/d2" "3bitdac_layout_0/switch_layout_0/INV_0/a_10_n215#" 313.719
+subcap "x1_out_v" -3544.35
+subcap "x1_out_v" -3128.73
+subcap "x1_out_v" -3505.86
+subcap "x1_out_v" -4519.37
+cap "3bitdac_layout_0/inp1" "3bitdac_layout_0/2bitdac_layout_0/x1_inp1" 9.61062
+merge "switch_layout_0/vout" "out_v" -25.4812 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -323 -72 0 0 0 0 0 0 0 0 0 0
+merge "3bitdac_layout_0/inp1" "inp1" -46.543 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -390 -82 0 0 0 0 0 0 0 0 0 0 0 0
+merge "3bitdac_layout_0/2bitdac_layout_1/switch_layout_1/din" "3bitdac_layout_1/2bitdac_layout_0/switch_layout_0/din" -138.456 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1747 -176 0 0 0 0 0 0 0 0 0 0 0 0
+merge "3bitdac_layout_1/2bitdac_layout_0/switch_layout_0/din" "d0"
+merge "3bitdac_layout_0/inp2" "res250_layout_0/a_205_n124#" -152.215 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -7842 -224 0 0 0 0 0 0 0 0 0 0 0 0
+merge "res250_layout_0/a_205_n124#" "x1_vref5"
+merge "3bitdac_layout_1/inp2" "inp2" -60.853 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -690 -106 0 0 0 0 0 0 0 0 0 0 0 0
+merge "3bitdac_layout_1/inp1" "res250_layout_0/a_119_n123#" -125.542 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 259 -230 0 0 0 0 0 0 0 0 0 0 0 0
+merge "res250_layout_0/a_119_n123#" "x2_vref1"
+merge "3bitdac_layout_0/vdd!" "switch_layout_0/vdd!" -2405.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -54341 -84 0 0 0 0 11162 -5888 0 0 0 0
+merge "switch_layout_0/vdd!" "3bitdac_layout_1/vdd!"
+merge "3bitdac_layout_1/vdd!" "vdd!"
+merge "3bitdac_layout_0/SUB" "switch_layout_0/SUB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "switch_layout_0/SUB" "res250_layout_0/SUB"
+merge "res250_layout_0/SUB" "3bitdac_layout_1/SUB"
+merge "3bitdac_layout_1/SUB" "SUB"
+merge "3bitdac_layout_0/d2" "3bitdac_layout_1/d2" -2391.88 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8790 -3801 67327 -1570 0 0 0 0 0 0 0 0 0 0
+merge "3bitdac_layout_1/d2" "d2"
+merge "3bitdac_layout_0/2bitdac_layout_1/d1" "3bitdac_layout_1/2bitdac_layout_0/d1" -1152.76 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1619 -1541 -67806 -300 0 0 0 0 0 0 0 0 0 0
+merge "3bitdac_layout_1/2bitdac_layout_0/d1" "d1"
+merge "3bitdac_layout_0/gnd!" "switch_layout_0/gnd!" -4717.5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -143407 -162 39982 -10228 0 0 0 0 0 0 0 0
+merge "switch_layout_0/gnd!" "3bitdac_layout_1/gnd!"
+merge "3bitdac_layout_1/gnd!" "gnd!"
+merge "3bitdac_layout_0/out_v" "switch_layout_0/inp1" -496.323 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -104782 -240 0 0 0 0 0 0 0 0 0 0 0 0
+merge "switch_layout_0/inp1" "x1_out_v"
+merge "switch_layout_0/inp2" "3bitdac_layout_1/out_v" -209.502 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1325 -372 0 0 0 0 0 0 0 0 0 0 0 0
+merge "3bitdac_layout_1/out_v" "x2_out_v"
+merge "switch_layout_0/din" "d3" -70.505 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2350 -144 0 0 0 0 0 0 0 0 0 0 0 0

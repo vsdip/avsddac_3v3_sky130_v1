@@ -1,0 +1,52 @@
+
+*Model Description
+.para temp =27 
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+V1 vdd 0 dc 3.3V
+V2 d0 0 PULSE 0 1.8 0ns 1p 1p 5u 10u
+V3 d1 0 PULSE 0 1.8 0ns 1p 1p 10u 20u
+V4 vref5 0 dc 0.1
+V5 vref1 0 dc 3.3V
+
+
+X0 switch_layout_0/dd switch_layout_0/dinb 0 0 sky130_fd_pr__nfet_01v8 w=0.61 l=0.15
+X1 switch_layout_0/dd switch_layout_0/dinb vdd vdd sky130_fd_pr__pfet_01v8 w=1.2 l=0.15
+X2 switch_layout_0/dinb d0 0 0 sky130_fd_pr__nfet_01v8 w=0.61 l=0.15
+X3 switch_layout_0/dinb d0 vdd vdd sky130_fd_pr__pfet_01v8 w=1.2 l=0.15
+X4 x1_inp1 switch_layout_0/dd x1_vout 0 sky130_fd_pr__nfet_01v8 w=0.60 l=0.15
+X5 x1_vout switch_layout_0/dinb x1_inp1 switch_layout_0/w_583_327# sky130_fd_pr__pfet_01v8 w=1.21 l=0.15
+X6 x1_inp2 switch_layout_0/dd x1_vout switch_layout_0/w_908_86# sky130_fd_pr__pfet_01v8 w=1.2 l=0.15
+X7 x1_vout switch_layout_0/dinb x1_inp2 0 sky130_fd_pr__nfet_01v8 w=0.60 l=0.15
+X8 switch_layout_1/dd switch_layout_1/dinb 0 0 sky130_fd_pr__nfet_01v8 w=0.61 l=0.15
+X9 switch_layout_1/dd switch_layout_1/dinb vdd vdd sky130_fd_pr__pfet_01v8 w=1.2 l=0.15
+X10 switch_layout_1/dinb d0 0 0 sky130_fd_pr__nfet_01v8 w=0.61 l=0.15
+X11 switch_layout_1/dinb d0 vdd vdd sky130_fd_pr__pfet_01v8 w=1.2 l=0.15
+X12 x2_inp1 switch_layout_1/dd x2_vout 0 sky130_fd_pr__nfet_01v8 w=0.60 l=0.15
+X13 x2_vout switch_layout_1/dinb x2_inp1 switch_layout_1/w_583_327# sky130_fd_pr__pfet_01v8 w=1.21 l=0.15
+X14 vref5 switch_layout_1/dd x2_vout switch_layout_1/w_908_86# sky130_fd_pr__pfet_01v8 w=1.2 l=0.15
+X15 x2_vout switch_layout_1/dinb vref5 0 sky130_fd_pr__nfet_01v8 w=0.60 l=0.15
+X16 switch_layout_2/dd switch_layout_2/dinb 0 0 sky130_fd_pr__nfet_01v8 w=0.61 l=0.15
+X17 switch_layout_2/dd switch_layout_2/dinb vdd vdd sky130_fd_pr__pfet_01v8 w=1.2 l=0.15
+X18 switch_layout_2/dinb d1 0 0 sky130_fd_pr__nfet_01v8 w=0.61 l=0.15
+X19 switch_layout_2/dinb d1 vdd vdd sky130_fd_pr__pfet_01v8 w=1.2 l=0.15
+X20 x1_vout switch_layout_2/dd out_v 0 sky130_fd_pr__nfet_01v8 w=0.60 l=0.15
+X21 out_v switch_layout_2/dinb x1_vout switch_layout_2/w_583_327# sky130_fd_pr__pfet_01v8 w=1.21 l=0.15
+X22 x2_vout switch_layout_2/dd out_v switch_layout_2/w_908_86# sky130_fd_pr__pfet_01v8 w=1.2 l=0.15
+X23 out_v switch_layout_2/dinb x2_vout 0 sky130_fd_pr__nfet_01v8 w=0.60 l=0.15
+X24 x1_inp1 x1_inp2 0 sky130_fd_pr__res_generic_nd w=0.27 l=1.24
+X25 x1_inp2 x2_inp1 0 sky130_fd_pr__res_generic_nd w=0.27 l=1.24
+X26 x2_inp1 vref5 0 sky130_fd_pr__res_generic_nd w=0.29 l=0.65
+X27 vref1 x1_inp1 0 sky130_fd_pr__res_generic_nd w=0.27 l=1.24
+C0 vdd 0 7.39fF
+X28 out_v 0 sky130_fd_pr__cap_mim_m3_1 W=25 L=25 MF=1
+
+
+.tran 1n 20u
+.control
+run 
+plot d0 d1 out_v
+plot out_v
+.endc
+.end
+

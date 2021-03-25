@@ -1,0 +1,6 @@
+* SPICE3 file created from INV.ext - technology: sky130A
+
+.option scale=10000u
+
+X0 a_80_n121# a_n44_n51# a_10_n215# a_10_n215# sky130_fd_pr__nfet_01v8 w=61 l=15
+X1 a_80_n121# a_n44_n51# w_0_0# w_0_0# sky130_fd_pr__pfet_01v8 w=120 l=15

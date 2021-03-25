@@ -1,0 +1,33 @@
+* SPICE3 file created from 2bitdac_layout.ext - technology: sky130A
+
+.option scale=10000u
+
+X0 switch_layout_0/dd switch_layout_0/dinb gnd gnd sky130_fd_pr__nfet_01v8 w=61 l=15
+X1 switch_layout_0/dd switch_layout_0/dinb vdd vdd sky130_fd_pr__pfet_01v8 w=120 l=15
+X2 switch_layout_0/dinb d0 gnd gnd sky130_fd_pr__nfet_01v8 w=61 l=15
+X3 switch_layout_0/dinb d0 vdd vdd sky130_fd_pr__pfet_01v8 w=120 l=15
+X4 x1_inp1 switch_layout_0/dd x1_vout gnd sky130_fd_pr__nfet_01v8 w=60 l=15
+X5 x1_vout switch_layout_0/dinb x1_inp1 switch_layout_0/w_583_327# sky130_fd_pr__pfet_01v8 w=121 l=15
+X6 x1_inp2 switch_layout_0/dd x1_vout switch_layout_0/w_908_86# sky130_fd_pr__pfet_01v8 w=120 l=15
+X7 x1_vout switch_layout_0/dinb x1_inp2 gnd sky130_fd_pr__nfet_01v8 w=60 l=15
+X8 switch_layout_1/dd switch_layout_1/dinb gnd gnd sky130_fd_pr__nfet_01v8 w=61 l=15
+X9 switch_layout_1/dd switch_layout_1/dinb vdd vdd sky130_fd_pr__pfet_01v8 w=120 l=15
+X10 switch_layout_1/dinb d0 gnd gnd sky130_fd_pr__nfet_01v8 w=61 l=15
+X11 switch_layout_1/dinb d0 vdd vdd sky130_fd_pr__pfet_01v8 w=120 l=15
+X12 x2_inp1 switch_layout_1/dd x2_vout gnd sky130_fd_pr__nfet_01v8 w=60 l=15
+X13 x2_vout switch_layout_1/dinb x2_inp1 switch_layout_1/w_583_327# sky130_fd_pr__pfet_01v8 w=121 l=15
+X14 vref5 switch_layout_1/dd x2_vout switch_layout_1/w_908_86# sky130_fd_pr__pfet_01v8 w=120 l=15
+X15 x2_vout switch_layout_1/dinb vref5 gnd sky130_fd_pr__nfet_01v8 w=60 l=15
+X16 switch_layout_2/dd switch_layout_2/dinb gnd gnd sky130_fd_pr__nfet_01v8 w=61 l=15
+X17 switch_layout_2/dd switch_layout_2/dinb vdd vdd sky130_fd_pr__pfet_01v8 w=120 l=15
+X18 switch_layout_2/dinb d1 gnd gnd sky130_fd_pr__nfet_01v8 w=61 l=15
+X19 switch_layout_2/dinb d1 vdd vdd sky130_fd_pr__pfet_01v8 w=120 l=15
+X20 x1_vout switch_layout_2/dd out_v gnd sky130_fd_pr__nfet_01v8 w=60 l=15
+X21 out_v switch_layout_2/dinb x1_vout switch_layout_2/w_583_327# sky130_fd_pr__pfet_01v8 w=121 l=15
+X22 x2_vout switch_layout_2/dd out_v switch_layout_2/w_908_86# sky130_fd_pr__pfet_01v8 w=120 l=15
+X23 out_v switch_layout_2/dinb x2_vout gnd sky130_fd_pr__nfet_01v8 w=60 l=15
+X24 x1_inp1 x1_inp2 gnd sky130_fd_pr__res_generic_nd w=27 l=124
+X25 x1_inp2 x2_inp1 gnd sky130_fd_pr__res_generic_nd w=27 l=124
+X26 x2_inp1 vref5 gnd sky130_fd_pr__res_generic_nd w=29 l=65
+X27 vref1 x1_inp1 gnd sky130_fd_pr__res_generic_nd w=27 l=124
+C0 vdd gnd 7.39fF
