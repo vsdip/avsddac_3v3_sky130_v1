@@ -1,0 +1,20 @@
+* SPICE3 file created from resister_pd.ext - technology: sky130A
+* Resistor value test
+
+* Include SkyWater sky130 device models
+.lib "../../../models/sky130.lib.spice" tt
+
+
+* Simple voltage across a modeled device resistor
+V1 0 A DC 1.8
+
+X0 a b w_4_29# sky130_fd_pr__res_generic_pd w=20 l=10000
+.control
+op lin 0 3.3
+run
+echo resistance
+print V(A)/V1#branch
+quit
+.endc
+
+.end
