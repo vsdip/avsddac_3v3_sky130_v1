@@ -2,7 +2,7 @@
 .para temp =27 
 
 * SPICE3 file created from switch.ext - technology: sky130A
-.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+.lib "../sky130_fd_pr/models/sky130.lib.spice" tt
 
 X0 dd dinb 0 0 sky130_fd_pr__nfet_01v8 w=0.61 l=0.15
 X1 dd dinb vdd vdd sky130_fd_pr__pfet_01v8 w=1.20 l=0.15
