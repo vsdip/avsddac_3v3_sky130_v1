@@ -359,44 +359,32 @@ However, multithreading option is effective if the major part of the circuit are
 o	Clone the git repo with following command
 
         git clone https://github.com/vsdip/avsddac_3v3_sky130_v1.git
-        
-
-o	The prelayout design Spice files are in the path 
-                    
-                 
-
-o	The libraries are given the folder 
-                    
+                  
 
 o   Open the terminal from the cloned folder or run bellow command after cloning while in the same path
     
-            
+            cd avsddac_3v3_sky130_v1/
 
 o	Command to simulate .Spice files of conventional design
 
-            
+            cd Prelayout/
    
             ngspice <Designname.spice>  
     
-o	Command to simulate .Spice files of new proposed design
-
-            ngspice  
 
 #### Post-layout Simulation commands
 o   Clone the git repo with following command (if you haven't cloned for pre-layout simulation)
 
-               git clone https://github.com/vsdip/avsddac_3v3_sky130_v1.git
-         
-o	The design Spice files are in the path 
-                      
+            git clone https://github.com/vsdip/avsddac_3v3_sky130_v1.git
+                          
                     
 o   Open the terminal from the cloned folder or run bellow command after cloning while in the same path
     
-        cd 
+        cd avsddac_3v3_sky130_v1/Postlayout/
 
 o	Command to simulate .Spice files of conventional design layout
         
-        
+        ngspice nbitdac_layout_test.spice
     
 
 ## 9.Future Works
@@ -409,4 +397,4 @@ Shalini Kanna, Masters of Science in Computer Engineering, University of Massach
 
 Harshitha Basavaraju, PhD Scholar @ Contact: harshithab0707@gmail.com
 
-Skandha Deepsita S, PhD Scholar @ IIITDM Kancheepuram; Contact:- skandha.deepsita5@gmail.com, linkedin.com/in/skandha-deepsita-sarvepalli-027433ba
+Skandha Deepsita S, PhD Scholar @ IIITDM Kancheepuram; Contact:- skandha.deepsita5@gmail.com, [LinkedIn](linkedin.com/in/skandha-deepsita-sarvepalli-027433ba)
