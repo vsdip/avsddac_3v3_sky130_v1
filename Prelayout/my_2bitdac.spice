@@ -1,5 +1,5 @@
 
-.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+.lib "../sky130_fd_pr/models/sky130.lib.spice" tt
 
 **.subckt 2bitdac_tb
 x1 x1_vdd x1_vref1 0 x1_out_v x1_d1 x1_d0 x1_vref5 2bitdac

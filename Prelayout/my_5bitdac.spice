@@ -1,4 +1,4 @@
-.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+.lib "../sky130_fd_pr/models/sky130.lib.spice" tt
 
 **.subckt 5bitdac_tb
 
