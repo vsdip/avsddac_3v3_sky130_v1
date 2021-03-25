@@ -393,7 +393,7 @@ Layout simulation of 10Bit Potentiometer DAC and plotting INL & DNL for 10Bit DA
 
 ## 10.Contributors
 
-Shalini Kanna, Masters of Science in Computer Engineering, University of Massachusetts Lowell, Lowell,MA, USA; Contact: kannashalini97@gmail.com, [LinkedIn](https://www.linkedin.com/in/shalini-kanna/)
+Shalini Kanna, Master of Science in Computer Engineering, University of Massachusetts Lowell, Lowell,MA, USA; Contact: kannashalini97@gmail.com, [LinkedIn](https://www.linkedin.com/in/shalini-kanna/)
 
 Harshitha Basavaraju, PhD Scholar @ University of Bundeswehr, Munich, Germany; Contact: harshithab0707@gmail.com, [LinkedIn](https://www.linkedin.com/in/harshitha-basavaraju-a91842b8/)
 
