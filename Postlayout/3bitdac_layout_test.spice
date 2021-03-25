@@ -3,7 +3,7 @@
 
 
 *Including sky130 library files
-.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+.lib "../sky130_fd_pr/models/sky130.lib.spice" tt
 
 V1 vdd 0 dc 3.3V
 V2 d0 0 PULSE 0 1.8 0 100p 100p 5u 10u
