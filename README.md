@@ -92,7 +92,7 @@ To see this waveform run `switch.spice` file
 
 #### *2-Bit DAC design and simulation:*
 
-2Bit DAC is implemented using 3 switch instances. 2-Bit circuitry and waveform are shown bellow
+2Bit DAC is implemented using 3 switch instances. 2-Bit circuitry and waveform are shown below
 
 
 ![2Bit DAC Design](https://github.com/vsdip/avsddac_3v3_sky130_v1/tree/main/Prelayout/Pictures/2bit_schematic.PNG)
@@ -105,7 +105,7 @@ To see this waveform run `my_2bitdac.spice` file
 
 #### *3-Bit DAC design and simulation:*
 
-3Bit DAC is implemented using 2 2-Bit DACs and 1 switch instances. 3-Bit circuitry and waveform are shown bellow
+3Bit DAC is implemented using 2 2-Bit DACs and 1 switch instances. 3-Bit circuitry and waveform are shown below
 
 ![3Bit DAC Design](https://github.com/vsdip/avsddac_3v3_sky130_v1/tree/main/Prelayout/Pictures/3bit_schematic.PNG)
 
@@ -115,7 +115,7 @@ To see this waveform run `my_3bitdac.spice` file
 
 #### *4-Bit DAC design and simulation:*
 
-4Bit DAC is implemented using 2 3-Bit DACs and 1 switch instances. 4-Bit circuitry and waveform are shown bellow
+4Bit DAC is implemented using 2 3-Bit DACs and 1 switch instances. 4-Bit circuitry and waveform are shown below
 
 ![4Bit DAC Design](https://github.com/vsdip/avsddac_3v3_sky130_v1/tree/main/Prelayout/Pictures/4bit_schematic.PNG)
 
@@ -125,7 +125,7 @@ To see this waveform run `my_4bitdac.spice` file
 
 #### *5-Bit DAC design and simulation:*
 
-5Bit DAC is implemented using 2 4-Bit DACs and 1 switch instances. 5-Bit circuitry and waveform are shown bellow
+5Bit DAC is implemented using 2 4-Bit DACs and 1 switch instances. 5-Bit circuitry and waveform are shown below
 
 ![5Bit DAC Design](https://github.com/vsdip/avsddac_3v3_sky130_v1/tree/main/Prelayout/Pictures/5bit_schematics.PNG)
 
@@ -136,7 +136,7 @@ To see this waveform run `my_5bitdac.spice` file
 
 #### *6-Bit DAC design and simulation:*
 
-6Bit DAC is implemented using 2 5-Bit DACs and 1 switch instances. 6-Bit circuitry and waveform are shown bellow
+6Bit DAC is implemented using 2 5-Bit DACs and 1 switch instances. 6-Bit circuitry and waveform are shown below
 
 ![6Bit DAC Design](https://github.com/vsdip/avsddac_3v3_sky130_v1/tree/main/Prelayout/Pictures/6bit_schematics.PNG)
 
@@ -148,7 +148,7 @@ To see this waveform run `my_6bitdac.spice` file
 
 #### *7-Bit DAC design and simulation:*
 
-7Bit DAC is implemented using 2 6-Bit DACs and 1 switch instances. 7-Bit circuitry and waveform are shown bellow
+7Bit DAC is implemented using 2 6-Bit DACs and 1 switch instances. 7-Bit circuitry and waveform are shown below
 ![7Bit DAC Design](https://github.com/vsdip/avsddac_3v3_sky130_v1/tree/main/Prelayout/Pictures/7bit_schematics.PNG)
 
 ![7Bit DAC WaveForm](https://github.com/vsdip/avsddac_3v3_sky130_v1/tree/main/Prelayout/Pictures/7bit_waveform.PNG)
@@ -158,7 +158,7 @@ To see this waveform run `my_7bitdac.spice` file
 
 #### *8-Bit DAC design and simulation:*
 
-8Bit DAC is implemented using 2 7-Bit DACs and 1 switch instances. 8-Bit circuitry and waveform are shown bellow
+8Bit DAC is implemented using 2 7-Bit DACs and 1 switch instances. 8-Bit circuitry and waveform are shown below
 
 ![8Bit DAC Design](https://github.com/vsdip/avsddac_3v3_sky130_v1/tree/main/Prelayout/Pictures/8bit_schematics.PNG)
 
@@ -167,7 +167,7 @@ To see this waveform run `my_7bitdac.spice` file
 To see this waveform run `my_8bitdac.spice` file
 
 #### *9-Bit DAC design:*
-9Bit DAC is implemented using 2 8-Bit DACs and 1 switch instances. 9-Bit circuitry and waveform are shown bellow
+9Bit DAC is implemented using 2 8-Bit DACs and 1 switch instances. 9-Bit circuitry and waveform are shown below
 
 ![9Bit DAC Design](https://github.com/vsdip/avsddac_3v3_sky130_v1/tree/main/Prelayout/Pictures/9bit_schematics.PNG)
 
@@ -178,7 +178,7 @@ To see this waveform run `my_8bitdac.spice` file
 To see the waveform run `my_9bitdac.spice` file. 
 
 #### *10-Bit DAC design:*
-10Bit DAC is implemented using 2 9-Bit DACs and 1 switch instances. 10-Bit circuitry and waveform are shown bellow
+10Bit DAC is implemented using 2 9-Bit DACs and 1 switch instances. 10-Bit circuitry and waveform are shown below
 
 ![10Bit DAC Design](https://github.com/vsdip/avsddac_3v3_sky130_v1/tree/main/Prelayout/Pictures/10bit_schematics.PNG)
 
@@ -231,7 +231,7 @@ Switch layout implementation and its respective waveform are shown below
 To see this waveform run `switch_layout_test.spice` file
 
 #### *2-Bit DAC layout and simulation*
-2Bit DAC is implemented using 3 switch instances. 2-Bit layout and waveform are shown bellow
+2Bit DAC is implemented using 3 switch instances. 2-Bit layout and waveform are shown below
 
 
 ![2Bit DAC Layout](https://github.com/vsdip/avsddac_3v3_sky130_v1/tree/main/Postlayout/Pictures/2bitdac%20layout%20design.PNG)
@@ -243,7 +243,7 @@ To see this waveform run `switch_layout_test.spice` file
 To see this waveform run `2bitdac_layout_test.spice` file
 
 #### *3-Bit DAC layout and simulation*
-3Bit DAC is implemented using 2 2-Bit DACs and 1 switch instances. 3-Bit layout and waveform are shown bellow
+3Bit DAC is implemented using 2 2-Bit DACs and 1 switch instances. 3-Bit layout and waveform are shown below
 ![3bit DAC layout](https://github.com/vsdip/avsddac_3v3_sky130_v1/tree/main/Postlayout/Pictures/3bitdac%20layout%20design.PNG)
 
 
@@ -253,7 +253,7 @@ To see this waveform run `2bitdac_layout_test.spice` file
 To see the wavefrom run `3bitdac_layout_test.spice` file.
 
 #### *4-Bit DAC layout and simulation*
-4Bit DAC is implemented using 2 3-Bit DACs and 1 switch instances. 4-Bit layout and waveform are shown bellow
+4Bit DAC is implemented using 2 3-Bit DACs and 1 switch instances. 4-Bit layout and waveform are shown below
 
 ![4bit DAC layout](https://github.com/vsdip/avsddac_3v3_sky130_v1/tree/main/Postlayout/Pictures/4bitdac%20layout%20design.PNG)
 
@@ -264,7 +264,7 @@ To see the wavefrom run `3bitdac_layout_test.spice` file.
 To see the wavefrom run `4bitdac_layout_test.spice` file.
 
 #### *5-Bit DAC layout and simulation*
-5Bit DAC is implemented using 2 4-Bit DACs and 1 switch instances. 5-Bit layout and waveform are shown bellow
+5Bit DAC is implemented using 2 4-Bit DACs and 1 switch instances. 5-Bit layout and waveform are shown below
 
 ![5bit DAC layout](https://github.com/vsdip/avsddac_3v3_sky130_v1/tree/main/Postlayout/Pictures/5bitdac%20layout%20design.PNG)
 
@@ -274,7 +274,7 @@ To see the wavefrom run `4bitdac_layout_test.spice` file.
 To see the wavefrom run `5bitdac_layout_test.spice` file.
 
 #### *6-Bit DAC layout and simulation*
-6Bit DAC is implemented using 2 5-Bit DACs and 1 switch instances. 6-Bit layout and waveform are shown bellow
+6Bit DAC is implemented using 2 5-Bit DACs and 1 switch instances. 6-Bit layout and waveform are shown below
 
 ![6bit DAC layout](https://github.com/vsdip/avsddac_3v3_sky130_v1/tree/main/Postlayout/Pictures/6bitdac%20layout%20design.PNG)
 
@@ -284,7 +284,7 @@ To see the wavefrom run `5bitdac_layout_test.spice` file.
 To see the wavefrom run `6bitdac_layout_test.spice` file.
 
 #### *7-Bit DAC layout and simulation*
-7Bit DAC is implemented using 2 6-Bit DACs and 1 switch instances. 7-Bit layout and waveform are shown bellow
+7Bit DAC is implemented using 2 6-Bit DACs and 1 switch instances. 7-Bit layout and waveform are shown below
 
 
 ![7bit DAC layout](https://github.com/vsdip/avsddac_3v3_sky130_v1/tree/main/Postlayout/Pictures/7bitdac%20layout%20design.PNG)
@@ -295,7 +295,7 @@ To see the wavefrom run `6bitdac_layout_test.spice` file.
 To see the wavefrom run `7bitdac_layout_test.spice` file.
 
 #### *8-Bit DAC layout and simulation*
-8Bit DAC is implemented using 2 7-Bit DACs and 1 switch instances. 8-Bit layout and waveform are shown bellow
+8Bit DAC is implemented using 2 7-Bit DACs and 1 switch instances. 8-Bit layout and waveform are shown below
 
 ![8bit DAC layout](https://github.com/vsdip/avsddac_3v3_sky130_v1/tree/main/Postlayout/Pictures/8bitdac%20layout%20design.PNG)
 
@@ -305,7 +305,7 @@ To see the wavefrom run `7bitdac_layout_test.spice` file.
 To see the wavefrom run `8bitdac_layout_test.spice` file.
 
 #### *9-Bit DAC layout and simulation*
-9Bit DAC is implemented using 2 8-Bit DACs and 1 switch instances. 9-Bit layout and waveform are shown bellow
+9Bit DAC is implemented using 2 8-Bit DACs and 1 switch instances. 9-Bit layout and waveform are shown below
 
 ![9bit DAC layout](https://github.com/vsdip/avsddac_3v3_sky130_v1/tree/main/Postlayout/Pictures/9bitdac%20layout%20desing.PNG)
 
@@ -315,7 +315,7 @@ To see the wavefrom run `8bitdac_layout_test.spice` file.
 To see the wavefrom run `9bitdac_layout_test.spice` file.
 
 #### *10-Bit DAC layout and simulation*
-10Bit DAC is implemented using 2 9-Bit DACs and 1 switch instances. 10-Bit layout and waveform are shown bellow
+10Bit DAC is implemented using 2 9-Bit DACs and 1 switch instances. 10-Bit layout and waveform are shown below
 
 ![10bit DAC layout](https://github.com/vsdip/avsddac_3v3_sky130_v1/tree/main/Postlayout/Pictures/10bitdac%20layout%20desing.PNG)
 
@@ -361,7 +361,7 @@ o	Clone the git repo with following command
         git clone https://github.com/vsdip/avsddac_3v3_sky130_v1.git
                   
 
-o   Open the terminal from the cloned folder or run bellow command after cloning while in the same path
+o   Open the terminal from the cloned folder or run below command after cloning while in the same path
     
             cd avsddac_3v3_sky130_v1/
 
@@ -378,7 +378,7 @@ o   Clone the git repo with following command (if you haven't cloned for pre-lay
             git clone https://github.com/vsdip/avsddac_3v3_sky130_v1.git
                           
                     
-o   Open the terminal from the cloned folder or run bellow command after cloning while in the same path
+o   Open the terminal from the cloned folder or run below command after cloning while in the same path
     
         cd avsddac_3v3_sky130_v1/
 
