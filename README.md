@@ -82,7 +82,7 @@ The basic idea is to divide the voltage into N different voltage values in the r
 
 Switch design implementation and respective waveform are shown below 
 
-![Switch Design](https://github.com/vsdip/avsddac_3v3_sky130_v1/tree/main/Prelayout/Pictures/TG_schematics.PNG)
+![Switch Design](https://github.com/vsdip/avsddac_3v3_sky130_v1/blob/main/Prelayout/Pictures/TG_schematics.PNG)
 
 
 ![Switch waveform](https://github.com/vsdip/avsddac_3v3_sky130_v1/tree/main/Prelayout/Pictures/switch_outputfinal.png)
