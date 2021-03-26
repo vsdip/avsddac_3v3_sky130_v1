@@ -388,6 +388,7 @@ o	Command to simulate .Spice files of conventional design layout
        
        ngspice nbitdac_layout_test.spice
     
+o type `y` when simulation asks for
 
 ## 9.Future Works
 
