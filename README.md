@@ -369,7 +369,7 @@ o	Command to simulate .Spice files of conventional design
 
             cd Prelayout/
    
-            ngspice <Designname.spice>  
+            ngspice my_nbitdac.spice  
     
 
 #### Post-layout Simulation commands
@@ -380,11 +380,13 @@ o   Clone the git repo with following command (if you haven't cloned for pre-lay
                     
 o   Open the terminal from the cloned folder or run bellow command after cloning while in the same path
     
-        cd avsddac_3v3_sky130_v1/Postlayout/
+        cd avsddac_3v3_sky130_v1/
 
 o	Command to simulate .Spice files of conventional design layout
-        
-        ngspice nbitdac_layout_test.spice
+       
+       cd Postlayout/
+       
+       ngspice nbitdac_layout_test.spice
     
 
 ## 9.Future Works
