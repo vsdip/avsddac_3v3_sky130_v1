@@ -38,6 +38,7 @@ The target is to design 10-bit potentiometric DAC with 3.3v analog voltage, 1.8v
     -	Post-layout Simulation commands
 -	8.Future Works
 -	9.Contributors
+-	10. Acknowledgments
 
 ## 1.Purpose of Digital to Analog Converter (DAC)
 In real world, most of the data available is in the form of analog in nature. We have two types of converters analog to digital converter and digital to analog converter. These two converting interfaces are essential to obtain the required operations of a processor to manipulate the data of digital electronic equipment and an analog electric equipment. 
@@ -390,11 +391,11 @@ o	Command to simulate .Spice files of conventional design layout
     
 o type `y` when simulation asks for
 
-## 9.Future Works
+## 8.Future Works
 
 Layout simulation of 10Bit Potentiometer DAC and plotting INL & DNL for 10Bit DAC layout. Runtime for layout can be reduced further.
 
-## 10.Contributors
+## 9.Contributors
 
 Shalini Kanna, Master of Science in Computer Engineering, University of Massachusetts Lowell, Lowell,MA, USA; Contact: kannashalini97@gmail.com, [LinkedIn](https://www.linkedin.com/in/shalini-kanna/)
 
@@ -402,4 +403,5 @@ Harshitha Basavaraju, PhD Scholar @ University of Bundeswehr, Munich, Germany; C
 
 Skandha Deepsita S, PhD Scholar @ IIITDM Kancheepuram; Contact: skandha.deepsita5@gmail.com, [LinkedIn](https://www.linkedin.com/in/skandha-deepsita-sarvepalli-027433ba)
 
+## 10. Acknowledgments
 Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalghosh@gmail.com
