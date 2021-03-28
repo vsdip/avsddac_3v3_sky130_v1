@@ -38,7 +38,7 @@ The target is to design 10-bit potentiometric DAC with 3.3v analog voltage, 1.8v
     -	Post-layout Simulation commands
 -	8.Future Works
 -	9.Contributors
--	10. Acknowledgments
+-	10.Acknowledgments
 
 ## 1.Purpose of Digital to Analog Converter (DAC)
 In real world, most of the data available is in the form of analog in nature. We have two types of converters analog to digital converter and digital to analog converter. These two converting interfaces are essential to obtain the required operations of a processor to manipulate the data of digital electronic equipment and an analog electric equipment. 
