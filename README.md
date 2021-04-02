@@ -310,7 +310,7 @@ To see the wavefrom run `8bitdac_layout_test.spice` file.
 
 ![9bit DAC layout](https://github.com/vsdip/avsddac_3v3_sky130_v1/blob/main/Postlayout/Pictures/9bitdac%20layout%20desing.PNG)
 
-![9Bit DAC WaveForm]()
+![9Bit DAC WaveForm](https://github.com/vsdip/avsddac_3v3_sky130_v1/blob/main/Postlayout/Pictures/9bitdac%20layout%20waveform.png)
 
 
 To see the wavefrom run `9bitdac_layout_test.spice` file.
