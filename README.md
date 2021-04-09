@@ -403,5 +403,7 @@ Harshitha Basavaraju, PhD Scholar @ University of Bundeswehr, Munich, Germany; C
 
 Skandha Deepsita S, PhD Scholar @ IIITDM Kancheepuram; Contact: skandha.deepsita5@gmail.com, [LinkedIn](https://www.linkedin.com/in/skandha-deepsita-sarvepalli-027433ba)
 
+Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalghosh@gmail.com
+
 ## 10. Acknowledgments
 Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalghosh@gmail.com
