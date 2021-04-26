@@ -11,7 +11,7 @@ The target is to design 10-bit potentiometric DAC with 3.3v analog voltage, 1.8v
   * [3.EDA tools used to implement Potentiometric DAC](#3eda-tools-used-to-implement-potentiometric-dac)
   * [4.Implementation of 10Bit Potentiometric DAC](#4implementation-of-10bit-potentiometric-dac)
   * [5.Pre-layout Designs and Simulations](#5pre-layout-designs-and-simulations)
-      - [*Switch Design*](#switch-design--)
+      - [*Switch Design*](#switch-design)
       - [*2-Bit DAC design and simulation*](#2-bit-dac-design-and-simulation--)
       - [*3-Bit DAC design and simulation*](#3-bit-dac-design-and-simulation--)
       - [*4-Bit DAC design and simulation*](#4-bit-dac-design-and-simulation--)
