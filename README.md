@@ -3,7 +3,7 @@ The project aims to design a 10-bit Potentiometric Digital to Analog Converter u
 The target is to design 10-bit potentiometric DAC with 3.3v analog voltage, 1.8v digital voltage and 1 off-chip external voltage reference using sky130nm technology node.
 ## Table of Content
 - [1.Purpose of Digital to Analog Converter (DAC)](#Purpose-of-Digital-to-Analog-Converter-(DAC))
-- [2.IP Block Design Specifications](#2.ip-block-design-specifications)
+- [2.IP Block Design Specifications](#2-ip-block-design-specifications)
 - [3.EDA tools used to implement Potentiometric DAC](#)
 -	[4.Implementation of 10Bit Potentiometric DAC](#)
 -	[5.Pre-layout Designs and Simulations](#)
