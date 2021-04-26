@@ -2,43 +2,43 @@
 The project aims to design a 10-bit Potentiometric Digital to Analog Converter using end-to-end Open-source EDA tools.
 The target is to design 10-bit potentiometric DAC with 3.3v analog voltage, 1.8v digital voltage and 1 off-chip external voltage reference using sky130nm technology node.
 ## Table of Content
-- 1.Purpose of Digital to Analog Converter (DAC)
-- 2.IP Block Design Specifications
-- 3.EDA tools used to implement Potentiometric DAC
--	4.Implementation of 10Bit Potentiometric DAC
--	5.Pre-layout Designs and Simulations 
-    -	Switch design
-    -	2-Bit DAC design and simulation
-    -	3-Bit DAC design and simulation
-    -	4-Bit DAC design and simulation
-    -	5-Bit DAC design and simulation
-    -	6-Bit DAC design and simulation
-    -	7-Bit DAC design and simulation
-    -	8-Bit DAC design and simulation
-    -	9-Bit DAC design and simulation
-    -	10-Bit DAC design and simulation
-    -	INL and DNL Waveforms
--	6.Post-Layout Designs and Simulations 
-    -   Resistor 250 layout and value
-    -   Resistor 500 layout and value
-    -   Inverter layout
-    -   Switch layout and simulation
-    -	2-Bit DAC layout and simulation
-    -	3-Bit DAC layout and simulation
-    -	4-Bit DAC layout and simulation
-    -	5-Bit DAC layout and simulation
-    -	6-Bit DAC layout and simulation
-    -	7-Bit DAC layout and simulation
-    -	8-Bit DAC layout and simulation
-    -	9-Bit DAC layout and simulation
-    -	10-Bit DAC layout and simulation
--	7.Instructions to get started with the design
-    -	Spice simulation speed improvement (Multi-threading)
-    -	Pre-layout Simulation commands
-    -	Post-layout Simulation commands
--	8.Future Works
--	9.Contributors
--	10.Acknowledgments
+- [1.Purpose of Digital to Analog Converter (DAC)](#Purpose-of-Digital-to-Analog-Converter-(DAC))
+- [2.IP Block Design Specifications](#)
+- [3.EDA tools used to implement Potentiometric DAC](#)
+-	[4.Implementation of 10Bit Potentiometric DAC](#)
+-	[5.Pre-layout Designs and Simulations](#)
+    -	[Switch design](#)
+    -	[2-Bit DAC design and simulation](#)
+    -	[3-Bit DAC design and simulation](#)
+    -	[4-Bit DAC design and simulation](#)
+    -	[5-Bit DAC design and simulation](#)
+    -	[6-Bit DAC design and simulation](#)
+    -	[7-Bit DAC design and simulation](#)
+    -	[8-Bit DAC design and simulation](#)
+    -	[9-Bit DAC design and simulation](#)
+    -	[10-Bit DAC design and simulation](#)
+    -	[INL and DNL Waveforms](#)
+-	[6.Post-Layout Designs and Simulations](#) 
+    -   [Resistor 250 layout and value](#)
+    -   [Resistor 500 layout and value](#)
+    -   [Inverter layout](#)
+    -   [Switch layout and simulation](#)
+    -	[2-Bit DAC layout and simulation](#)
+    -	[3-Bit DAC layout and simulation](#)
+    -	[4-Bit DAC layout and simulation](#)
+    -	[5-Bit DAC layout and simulation](#)
+    -	[6-Bit DAC layout and simulation](#)
+    -	[7-Bit DAC layout and simulation](#)
+    -	[8-Bit DAC layout and simulation](#)
+    -	[9-Bit DAC layout and simulation](#)
+    -	[10-Bit DAC layout and simulation](#)
+-	[7.Instructions to get started with the design](#)
+    -	[Spice simulation speed improvement (Multi-threading)](#)
+    -	[Pre-layout Simulation commands](#)
+    -	[Post-layout Simulation commands](#)
+-	[8.Future Works](#)
+-	[9.Contributors](#)
+-	[10.Acknowledgments](#)
 
 ## 1.Purpose of Digital to Analog Converter (DAC)
 In real world, most of the data available is in the form of analog in nature. We have two types of converters analog to digital converter and digital to analog converter. These two converting interfaces are essential to obtain the required operations of a processor to manipulate the data of digital electronic equipment and an analog electric equipment. 
