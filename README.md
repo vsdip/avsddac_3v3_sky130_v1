@@ -2,56 +2,6 @@
 The project aims to design a 10-bit Potentiometric Digital to Analog Converter using end-to-end Open-source EDA tools.
 The target is to design 10-bit potentiometric DAC with 3.3v analog voltage, 1.8v digital voltage and 1 off-chip external voltage reference using sky130nm technology node.
 ## Table of Content
-- [POTENTIOMETRIC DIGITAL-TO-ANALOG CONVERTER](#potentiometric-digital-to-analog-converter)
-  * [Table of Content](#table-of-content)
-  * [1.Purpose of Digital to Analog Converter (DAC)](#1purpose-of-digital-to-analog-converter-dac)
-  * [2.IP Block Design Specifications](#2ip-block-design-specifications)
-    + [IP Block Diagram](#ip-block-diagram)
-    + [Terminal Functions](#terminal-functions)
-  * [3.EDA tools used to implement Potentiometric DAC](#3eda-tools-used-to-implement-potentiometric-dac)
-  * [4.Implementation of 10Bit Potentiometric DAC](#4implementation-of-10bit-potentiometric-dac)
-  * [5.Pre-layout Designs and Simulations](#5pre-layout-designs-and-simulations)
-      - [*Switch design and simulation*](#switch-design-and-simulation)
-      - [*2-Bit DAC design and simulation*](#2-bit-dac-design-and-simulation)
-      - [*3-Bit DAC design and simulation*](#3-bit-dac-design-and-simulation)
-      - [*4-Bit DAC design and simulation*](#4-bit-dac-design-and-simulation)
-      - [*5-Bit DAC design and simulation*](#5-bit-dac-design-and-simulation)
-      - [*6-Bit DAC design and simulation*](#6-bit-dac-design-and-simulation)
-      - [*7-Bit DAC design and simulation*](#7-bit-dac-design-and-simulation)
-      - [*8-Bit DAC design and simulation*](#8-bit-dac-design-and-simulation)
-      - [*9-Bit DAC design and simulation*](#9-bit-dac-design-and-simulation)
-      - [*10-Bit DAC design and simulation*](#10-bit-dac-design-and-simulation)
-    + [INL AND DNL outputs](#inl-and-dnl-outputs)
-  * [6.Post-layout Designs and Simulations](#6post-layout-designs-and-simulations)
-      - [*Resistor 250 layout and value*](#resistor-250-layout-and-value)
-      - [*Resistor 500 layout and value*](#resistor-500-layout-and-value)
-      - [*Inverter layout*](#inverter-layout)
-      - [*Switch layout and simulation*](#switch-layout-and-simulation)
-      - [*2-Bit DAC layout and simulation*](#2-bit-dac-layout-and-simulation)
-      - [*3-Bit DAC layout and simulation*](#3-bit-dac-layout-and-simulation)
-      - [*4-Bit DAC layout and simulation*](#4-bit-dac-layout-and-simulation)
-      - [*5-Bit DAC layout and simulation*](#5-bit-dac-layout-and-simulation)
-      - [*6-Bit DAC layout and simulation*](#6-bit-dac-layout-and-simulation)
-      - [*7-Bit DAC layout and simulation*](#7-bit-dac-layout-and-simulation)
-      - [*8-Bit DAC layout and simulation*](#8-bit-dac-layout-and-simulation)
-      - [*9-Bit DAC layout and simulation*](#9-bit-dac-layout-and-simulation)
-      - [*10-Bit DAC layout and simulation*](#10-bit-dac-layout-and-simulation)
-  * [7.Instructions to get started with the design](#7instructions-to-get-started-with-the-design)
-      - [Spice simulation speed improvement](#spice-simulation-speed-improvement)
-      - [Pre-layout Simulation commands](#pre-layout-simulation-commands)
-      - [Post-layout Simulation commands](#post-layout-simulation-commands)
-  * [8.Future Works](#8future-works)
-  * [9.Contributors](#9contributors)
-  * [10.Acknowledgments](#10acknowledgments)
-
-
-
-
-
-
--------------------------------------------------------------------------------------------------------------
-
-
 - [1.Purpose of Digital to Analog Converter (DAC)](#1purpose-of-digital-to-analog-converter-dac)
 - [2.IP Block Design Specifications](#2ip-block-design-specifications)
      - [IP Block Diagram](#ip-block-diagram)
@@ -245,10 +195,10 @@ To see the wavefrom run `my_10bitdac.spice` file.
 Every block of the circuit until 10 bit DAC are tested and spice models until 10 bit dac are included in [specified folders](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/tree/main/10Bit_Potentiometeric_DAC_Conventional_Design/spicefiles).
 ### INL AND DNL outputs
 
-![](https://github.com/vsdip/avsddac_3v3_sky130_v1/blob/main/Prelayout/DNL_LSB.png)
+![DNL_LSB](https://github.com/vsdip/avsddac_3v3_sky130_v1/blob/main/Prelayout/DNL_LSB.png)
 
 
-![](https://github.com/vsdip/avsddac_3v3_sky130_v1/blob/main/Prelayout/INL_LSB.png)
+![INL_LSB](https://github.com/vsdip/avsddac_3v3_sky130_v1/blob/main/Prelayout/INL_LSB.png)
 
 ## 6.Post-layout Designs and Simulations 
 #### *Resistor 250 layout and value*
@@ -378,7 +328,7 @@ To see the wavefrom run `10bitdac_layout_test.spice` file.
 
 
 ## 7.Instructions to get started with the design
-#### Spice simulation speed improvement
+#### Spice simulation speed improvement (Multi threading)
  Ngspice provides multithreading options to improve the simulation time. To enable multithreading following steps are to be followed:
 
  o Install ngspice from tarball
