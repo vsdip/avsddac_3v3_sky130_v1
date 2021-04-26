@@ -4,7 +4,7 @@ The target is to design 10-bit potentiometric DAC with 3.3v analog voltage, 1.8v
 ## Table of Content
 - [POTENTIOMETRIC DIGITAL-TO-ANALOG CONVERTER](#potentiometric-digital-to-analog-converter)
   * [Table of Content](#table-of-content)
-  * [1.Purpose of Digital to Analog Converter (DAC)](#1purpose-of-digital-to-analog-converter--dac-)
+  * [1.Purpose of Digital to Analog Converter (DAC)](#1purpose-of-digital-to-analog-converter-dac-)
   * [2.IP Block Design Specifications](#2ip-block-design-specifications)
     + [IP Block Diagram](#ip-block-diagram)
     + [Terminal Functions](#terminal-functions)
@@ -80,10 +80,10 @@ The target is to design 10-bit potentiometric DAC with 3.3v analog voltage, 1.8v
 -	[7.Instructions to get started with the design](#)
     -	[Spice simulation speed improvement (Multi-threading)](#)
     -	[Pre-layout Simulation commands](#)
-    -	[Post-layout Simulation commands](#)
--	[8.Future Works](#)
--	[9.Contributors](#)
--	[10.Acknowledgments](#)
+    -	[Post-layout Simulation commands](#post-layout-simulation-commands)
+-	[8.Future Works](#8future-works)
+-	[9.Contributors](#9contributors)
+-	[10.Acknowledgments](#10acknowledgments)
 
 ## 1.Purpose of Digital to Analog Converter (DAC)
 In real world, most of the data available is in the form of analog in nature. We have two types of converters analog to digital converter and digital to analog converter. These two converting interfaces are essential to obtain the required operations of a processor to manipulate the data of digital electronic equipment and an analog electric equipment. 
