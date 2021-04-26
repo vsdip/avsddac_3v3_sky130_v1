@@ -4,7 +4,7 @@ The target is to design 10-bit potentiometric DAC with 3.3v analog voltage, 1.8v
 ## Table of Content
 - [POTENTIOMETRIC DIGITAL-TO-ANALOG CONVERTER](#potentiometric-digital-to-analog-converter)
   * [Table of Content](#table-of-content)
-  * [1.Purpose of Digital to Analog Converter (DAC)](#1purpose-of-digital-to-analog-converter--dac)
+  * [1.Purpose of Digital to Analog Converter (DAC)](#1purpose-of-digital-to-analog-converter-dac)
   * [2.IP Block Design Specifications](#2ip-block-design-specifications)
     + [IP Block Diagram](#ip-block-diagram)
     + [Terminal Functions](#terminal-functions)
