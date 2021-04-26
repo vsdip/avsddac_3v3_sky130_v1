@@ -14,28 +14,28 @@ The target is to design 10-bit potentiometric DAC with 3.3v analog voltage, 1.8v
       - [*Switch Design*](#switch-design)
       - [*2-Bit DAC design and simulation*](#2-bit-dac-design-and-simulation)
       - [*3-Bit DAC design and simulation*](#3-bit-dac-design-and-simulation)
-      - [*4-Bit DAC design and simulation*](#4-bit-dac-design-and-simulation--)
-      - [*5-Bit DAC design and simulation*](#5-bit-dac-design-and-simulation--)
-      - [*6-Bit DAC design and simulation*](#6-bit-dac-design-and-simulation--)
-      - [*7-Bit DAC design and simulation*](#7-bit-dac-design-and-simulation--)
-      - [*8-Bit DAC design and simulation*](#8-bit-dac-design-and-simulation--)
-      - [*9-Bit DAC design:*](#9-bit-dac-design--)
-      - [*10-Bit DAC design:*](#10-bit-dac-design--)
+      - [*4-Bit DAC design and simulation*](#4-bit-dac-design-and-simulation)
+      - [*5-Bit DAC design and simulation*](#5-bit-dac-design-and-simulation)
+      - [*6-Bit DAC design and simulation*](#6-bit-dac-design-and-simulation)
+      - [*7-Bit DAC design and simulation*](#7-bit-dac-design-and-simulation)
+      - [*8-Bit DAC design and simulation*](#8-bit-dac-design-and-simulation)
+      - [*9-Bit DAC design and simulation*](#9-bit-dac-design-and-simulation)
+      - [*10-Bit DAC design and simulation*](#10-bit-dac-design-and-simulation)
     + [INL AND DNL outputs](#inl-and-dnl-outputs)
   * [6.Post-layout Designs and Simulations](#6post-layout-designs-and-simulations)
-      - [*Resistor 250 layout and value*](#resistor-250-layout-and-value-)
-      - [*Resistor 500 layout and value*](#resistor-500-layout-and-value-)
-      - [*Inverter layout*](#-inverter-layout-)
-      - [*Switch layout and simulation*](#-switch-layout-and-simulation-)
-      - [*2-Bit DAC layout and simulation*](#-2-bit-dac-layout-and-simulation-)
-      - [*3-Bit DAC layout and simulation*](#-3-bit-dac-layout-and-simulation-)
-      - [*4-Bit DAC layout and simulation*](#-4-bit-dac-layout-and-simulation-)
-      - [*5-Bit DAC layout and simulation*](#-5-bit-dac-layout-and-simulation-)
-      - [*6-Bit DAC layout and simulation*](#-6-bit-dac-layout-and-simulation-)
-      - [*7-Bit DAC layout and simulation*](#-7-bit-dac-layout-and-simulation-)
-      - [*8-Bit DAC layout and simulation*](#-8-bit-dac-layout-and-simulation-)
-      - [*9-Bit DAC layout and simulation*](#-9-bit-dac-layout-and-simulation-)
-      - [*10-Bit DAC layout and simulation*](#-10-bit-dac-layout-and-simulation-)
+      - [*Resistor 250 layout and value*](#resistor-250-layout-and-value)
+      - [*Resistor 500 layout and value*](#resistor-500-layout-and-value)
+      - [*Inverter layout*](#inverter-layout)
+      - [*Switch layout and simulation*](#switch-layout-and-simulation)
+      - [*2-Bit DAC layout and simulation*](#2-bit-dac-layout-and-simulation)
+      - [*3-Bit DAC layout and simulation*](#3-bit-dac-layout-and-simulation)
+      - [*4-Bit DAC layout and simulation*](#4-bit-dac-layout-and-simulation)
+      - [*5-Bit DAC layout and simulation*](#5-bit-dac-layout-and-simulation)
+      - [*6-Bit DAC layout and simulation*](#6-bit-dac-layout-and-simulation)
+      - [*7-Bit DAC layout and simulation*](#7-bit-dac-layout-and-simulation)
+      - [*8-Bit DAC layout and simulation*](#8-bit-dac-layout-and-simulation)
+      - [*9-Bit DAC layout and simulation*](#9-bit-dac-layout-and-simulation)
+      - [*10-Bit DAC layout and simulation*](#10-bit-dac-layout-and-simulation)
   * [7.Instructions to get started with the design](#7instructions-to-get-started-with-the-design)
       - [Spice simulation speed improvement](#spice-simulation-speed-improvement)
       - [Pre-layout Simulation commands](#pre-layout-simulation-commands)
@@ -212,7 +212,7 @@ To see this waveform run `my_7bitdac.spice` file
 
 To see this waveform run `my_8bitdac.spice` file
 
-#### *9-Bit DAC design:*
+#### *9-Bit DAC design and simulation:*
 9Bit DAC is implemented using 2 8-Bit DACs and 1 switch instances. 9-Bit circuitry and waveform are shown below
 
 ![9Bit DAC Design](https://github.com/vsdip/avsddac_3v3_sky130_v1/blob/main/Prelayout/Pictures/9bit_schematics.PNG)
@@ -223,7 +223,7 @@ To see this waveform run `my_8bitdac.spice` file
 
 To see the waveform run `my_9bitdac.spice` file. 
 
-#### *10-Bit DAC design:*
+#### *10-Bit DAC design and simulation:*
 10Bit DAC is implemented using 2 9-Bit DACs and 1 switch instances. 10-Bit circuitry and waveform are shown below
 
 ![10Bit DAC Design](https://github.com/vsdip/avsddac_3v3_sky130_v1/blob/main/Prelayout/Pictures/10bit_schematics.PNG)
@@ -266,7 +266,6 @@ Inverter Implementation is shown below
 Switch layout implementation and its respective waveform are shown below 
 
 ![Switch Layout](https://github.com/vsdip/avsddac_3v3_sky130_v1/blob/main/Postlayout/Pictures/Switch%20layout%20design.PNG)
-
 
 
 
