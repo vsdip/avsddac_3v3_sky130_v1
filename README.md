@@ -2,9 +2,54 @@
 The project aims to design a 10-bit Potentiometric Digital to Analog Converter using end-to-end Open-source EDA tools.
 The target is to design 10-bit potentiometric DAC with 3.3v analog voltage, 1.8v digital voltage and 1 off-chip external voltage reference using sky130nm technology node.
 ## Table of Content
-- [1.Purpose of Digital to Analog Converter (DAC)](#Purpose-of-Digital-to-Analog-Converter-(DAC))
+- [POTENTIOMETRIC DIGITAL-TO-ANALOG CONVERTER](#potentiometric-digital-to-analog-converter)
+  * [Table of Content](#table-of-content)
+  * [1.Purpose of Digital to Analog Converter (DAC)](#1purpose-of-digital-to-analog-converter--dac-)
+  * [2.IP Block Design Specifications](#2ip-block-design-specifications)
+    + [IP Block Diagram](#ip-block-diagram)
+    + [Terminal Functions](#terminal-functions)
+  * [3.EDA tools used to implement Potentiometric DAC](#3eda-tools-used-to-implement-potentiometric-dac)
+  * [4.Implementation of 10Bit Potentiometric DAC](#4implementation-of-10bit-potentiometric-dac)
+  * [5.Pre-layout Designs and Simulations](#5pre-layout-designs-and-simulations)
+      - [*Switch Design*](#-switch-design-)
+      - [*2-Bit DAC design and simulation:*](#-2-bit-dac-design-and-simulation--)
+      - [*3-Bit DAC design and simulation:*](#-3-bit-dac-design-and-simulation--)
+      - [*4-Bit DAC design and simulation:*](#-4-bit-dac-design-and-simulation--)
+      - [*5-Bit DAC design and simulation:*](#-5-bit-dac-design-and-simulation--)
+      - [*6-Bit DAC design and simulation:*](#-6-bit-dac-design-and-simulation--)
+      - [*7-Bit DAC design and simulation:*](#-7-bit-dac-design-and-simulation--)
+      - [*8-Bit DAC design and simulation:*](#-8-bit-dac-design-and-simulation--)
+      - [*9-Bit DAC design:*](#-9-bit-dac-design--)
+      - [*10-Bit DAC design:*](#-10-bit-dac-design--)
+    + [INL AND DNL outputs](#inl-and-dnl-outputs)
+  * [6.Post-layout Designs and Simulations](#6post-layout-designs-and-simulations)
+      - [*Resistor 250 layout and value*](#-resistor-250-layout-and-value-)
+      - [*Resistor 500 layout and value*](#-resistor-500-layout-and-value-)
+      - [*Inverter layout*](#-inverter-layout-)
+      - [*Switch layout and simulation*](#-switch-layout-and-simulation-)
+      - [*2-Bit DAC layout and simulation*](#-2-bit-dac-layout-and-simulation-)
+      - [*3-Bit DAC layout and simulation*](#-3-bit-dac-layout-and-simulation-)
+      - [*4-Bit DAC layout and simulation*](#-4-bit-dac-layout-and-simulation-)
+      - [*5-Bit DAC layout and simulation*](#-5-bit-dac-layout-and-simulation-)
+      - [*6-Bit DAC layout and simulation*](#-6-bit-dac-layout-and-simulation-)
+      - [*7-Bit DAC layout and simulation*](#-7-bit-dac-layout-and-simulation-)
+      - [*8-Bit DAC layout and simulation*](#-8-bit-dac-layout-and-simulation-)
+      - [*9-Bit DAC layout and simulation*](#-9-bit-dac-layout-and-simulation-)
+      - [*10-Bit DAC layout and simulation*](#-10-bit-dac-layout-and-simulation-)
+  * [7.Instructions to get started with the design](#7instructions-to-get-started-with-the-design)
+      - [Spice simulation speed improvement](#spice-simulation-speed-improvement)
+      - [Pre-layout Simulation commands](#pre-layout-simulation-commands)
+      - [Post-layout Simulation commands](#post-layout-simulation-commands)
+  * [8.Future Works](#8future-works)
+  * [9.Contributors](#9contributors)
+  * [10. Acknowledgments](#10-acknowledgments)
+
+
+
+
+- [1.Purpose of Digital to Analog Converter (DAC)](#1Purpose-of-Digital-to-Analog-Converter-(DAC))
 - [2.IP Block Design Specifications](#2ip-block-design-specifications)
-- [3.EDA tools used to implement Potentiometric DAC](#)
+- [3.EDA tools used to implement Potentiometric DAC](#3EDA-tools-used-to-implement-Potentiometric-DAC)
 -	[4.Implementation of 10Bit Potentiometric DAC](#)
 -	[5.Pre-layout Designs and Simulations](#)
     -	[Switch design](#)
@@ -71,7 +116,7 @@ The step to install xschem with sky130 and ngspice can be found [here](https://g
 
 
  
-## 4.Implementation of 10Bit Potentiometeric DAC
+## 4.Implementation of 10Bit Potentiometric DAC
 The basic idea is to divide the voltage into N different voltage values in the range of VREFH and VREFL- for an N-Bit DAC. The design used here to achieve this is the simple resistor string DAC which consists of resistors in series. These resistors are then connected to various switches in such a fashion that it routes the exact voltage to the output. The problem of the largeness of the circuit is reduced by building hierarchical subcircuits of 10-Bit potentiometric DAC – Switch, 2-bit, 3-bit, 4-bit, 5-bit, 6-bit, 7-bit, 8-bit, 9-bit and 10-bit.
 
 ![Conventional DAC](https://user-images.githubusercontent.com/73480418/109262054-e2fafd00-77ce-11eb-91ad-d75cca9803a2.png)
