@@ -216,6 +216,8 @@ R = 497.2ohms
 #### *Inverter layout*
 
 Inverter Implementation is shown below
+
+
 ![Inverter Layout](https://github.com/vsdip/avsddac_3v3_sky130_v1/blob/main/Postlayout/Pictures/INV%20layout%20design.PNG)
 
 
