@@ -34,6 +34,7 @@ The target is to design 10-bit potentiometric DAC with 3.3v analog voltage, 1.8v
     -	[8-Bit DAC layout and simulation](#8-bit-dac-layout-and-simulation)
     -	[9-Bit DAC layout and simulation](#9-bit-dac-layout-and-simulation)
     -	[10-Bit DAC layout and simulation](#10-bit-dac-layout-and-simulation)
+    -	[INL and DNL Waveforms](#inl-and-dnl-outputs-postlayout)
 -	[7.Instructions to get started with the design](#7instructions-to-get-started-with-the-design)
     -	[Spice simulation speed improvement (Multi threading)](#spice-simulation-speed-improvement-multi-threading)
     -	[Pre-layout Simulation commands](#pre-layout-simulation-commands)
@@ -323,10 +324,17 @@ To see the wavefrom run `9bitdac_layout_test.spice` file.
 
 ![10bit DAC layout](https://github.com/vsdip/avsddac_3v3_sky130_v1/blob/main/Postlayout/Pictures/10bitdac%20layout%20desing.PNG)
 
-![10Bit DAC WaveForm]()
+![10Bit DAC WaveForm](https://github.com/vsdip/avsddac_3v3_sky130_v1/blob/main/Postlayout/Pictures/10bitdac%20layout%20waveform.png)
 
 
 To see the wavefrom run `10bitdac_layout_test.spice` file.
+
+### INL AND DNL outputs postlayout
+
+![DNL_LSB](https://github.com/vsdip/avsddac_3v3_sky130_v1/blob/main/Postlayout/Pictures/DNL_LSB_layout.png)
+
+
+![INL_LSB](https://github.com/vsdip/avsddac_3v3_sky130_v1/blob/main/Postlayout/Pictures/INL_LSB_layout.png)
 
 
 ## 7.Instructions to get started with the design
