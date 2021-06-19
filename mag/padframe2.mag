@@ -1,0 +1,13 @@
+magic
+tech sky130A
+timestamp 1606748160
+use bump_pad  bump_pad_0
+array 0 5 50000 0 9 50000
+timestamp 1602626256
+transform 1 0 49462 0 1 34347
+box -12400 -12400 12500 12400
+use chip_io  chip_io_0
+timestamp 1606748160
+transform 1 0 -5274 0 1 -923
+box 0 0 358800 518800
+<< end >>

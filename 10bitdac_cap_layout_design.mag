@@ -1,0 +1,93 @@
+magic
+tech sky130A
+timestamp 1624022303
+<< viali >>
+rect 102718 28757 102738 28775
+<< metal1 >>
+rect 102715 28783 102801 28788
+rect 102715 28775 102773 28783
+rect 102715 28757 102718 28775
+rect 102738 28757 102773 28775
+rect 102715 28755 102773 28757
+rect 102800 28755 102801 28783
+rect 102715 28750 102801 28755
+rect 104169 26288 104281 26324
+<< via1 >>
+rect 102773 28755 102800 28783
+<< metal2 >>
+rect 102769 28786 102861 28789
+rect 102769 28783 102824 28786
+rect 102769 28755 102773 28783
+rect 102800 28755 102824 28783
+rect 102769 28754 102824 28755
+rect 102855 28754 102861 28786
+rect 102769 28750 102861 28754
+<< via2 >>
+rect 102824 28754 102855 28786
+<< metal3 >>
+rect 102875 28792 102931 28795
+rect 102819 28790 102931 28792
+rect 102819 28786 102884 28790
+rect 102819 28754 102824 28786
+rect 102855 28754 102884 28786
+rect 102919 28754 102931 28790
+rect 102819 28750 102931 28754
+rect 102875 28749 102931 28750
+rect 104169 26288 104281 26324
+<< via3 >>
+rect 102884 28754 102919 28790
+<< mimcapcontact >>
+rect 105103 28755 105138 28789
+<< metal4 >>
+rect 102882 28790 105143 28792
+rect 102882 28754 102884 28790
+rect 102919 28789 105143 28790
+rect 102919 28755 105103 28789
+rect 105138 28755 105143 28789
+rect 102919 28754 105143 28755
+rect 102882 28752 105143 28754
+rect 102882 28750 102978 28752
+use 10bitdac_layout  10bitdac_layout_0
+timestamp 1624022303
+transform 1 0 214 0 1 28822
+box -214 -28846 102528 27385
+use cap_28p  cap_28p_0
+timestamp 1616448691
+transform 1 0 105249 0 1 26939
+box -984 -1226 12410 12449
+<< labels >>
+rlabel metal4 103710 28766 103710 28766 1 out
+port 1 n signal output
+flabel locali s 612 55739 640 55839 0 FreeSans 40 0 0 0 inp1
+port 61 nsew signal input
+flabel locali s 83495 27849 83515 29107 0 FreeSans 40 0 0 0 d0
+port 68 nsew signal input
+flabel locali s 85027 28429 85054 28825 0 FreeSans 40 0 0 0 d1
+port 70 nsew signal input
+flabel locali s 86780 28319 86822 29239 0 FreeSans 40 0 0 0 d2
+port 72 nsew signal input
+flabel locali s 88491 27437 88524 29273 0 FreeSans 40 0 0 0 d3
+port 74 nsew signal input
+flabel locali s 89913 28379 89945 28926 0 FreeSans 40 0 0 0 d4
+port 76 nsew signal input
+flabel locali s 91584 27415 91608 29278 0 FreeSans 40 0 0 0 d5
+port 78 nsew signal input
+flabel locali s 94200 27401 94235 29297 0 FreeSans 40 0 0 0 d6
+port 80 nsew signal input
+flabel locali s 95945 27419 95982 29336 0 FreeSans 40 0 0 0 d7
+port 82 nsew signal input
+flabel locali s 98048 27394 98086 39831 0 FreeSans 40 0 0 0 d8
+port 84 nsew signal input
+flabel locali s 101395 28668 101506 28716 0 FreeSans 40 0 0 0 d9
+port 86 nsew signal input
+flabel metal2 s 98274 27712 98313 42907 0 FreeSans 40 0 0 0 gnd!
+port 88 nsew ground bidirectional
+flabel metal4 s 100985 29110 101081 41536 0 FreeSans 40 0 0 0 vdd!
+port 92 nsew power bidirectional
+flabel locali s 83000 2638 83027 2716 0 FreeSans 40 0 0 0 inp2
+port 37 nsew signal input
+<< properties >>
+string LEFclass CORE
+string LEFsite unithd LEForigin 0 0 
+string FIXED_BBOX 0 0 874 544
+<< end >>
