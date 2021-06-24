@@ -1,0 +1,175 @@
+timestamp 1624221218
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 2200000 3050000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+use res500_layout res500_layout_2 0 1 288 -1 0 598
+use res500_layout res500_layout_1 0 1 288 -1 0 -34
+use res500_layout res500_layout_0 0 1 296 -1 0 1046
+use res250_layout res250_layout_0 0 1 340 -1 0 -598
+use switch_layout switch_layout_2 1 0 732 0 1 50
+use switch_layout switch_layout_1 1 0 764 0 1 -1230
+use switch_layout switch_layout_0 1 0 3868 0 1 -434
+node "gnd!" 17 2682.82 906 230 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29032 1268 285564 12188 0 0 0 0 0 0 0 0
+node "vdd!" 6 2814.68 1602 1036 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29476 1308 49880 1692 81936 2352 546800 10440 0 0 0 0
+node "vref5" 1115 2046.27 -10 -1234 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 131108 7000 0 0 0 0 0 0 0 0 0 0 0 0
+node "x2_vout" 761 2059.51 3156 -550 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 183468 6872 1224 140 0 0 0 0 0 0 0 0 0 0
+node "d1" 28 204.3 3832 78 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 23460 664 0 0 0 0 0 0 0 0 0 0 0 0
+node "x2_inp1" 1199 2517.96 166 -632 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 165816 8152 13928 756 0 0 0 0 0 0 0 0 0 0
+node "out_v" 44 175.316 6272 242 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14720 588 1368 148 0 0 0 0 0 0 0 0 0 0
+node "x1_inp2" 858 2242.39 148 -340 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 175104 7116 14796 776 0 0 0 0 0 0 0 0 0 0
+node "d0" 374 889.932 696 -164 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 69008 3004 0 0 0 0 0 0 0 0 0 0 0 0
+node "x1_vout" 995 1995.47 3132 728 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138024 6792 1368 148 0 0 0 0 0 0 0 0 0 0
+node "vref1" 61 175.37 170 738 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12400 596 0 0 0 0 0 0 0 0 0 0 0 0
+node "x1_inp1" 1228 2468.94 150 290 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 171824 8400 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "d0" "vref5" 4.09316
+cap "vdd!" "x2_inp1" 31.7832
+cap "x2_vout" "gnd!" 38.8736
+cap "d0" "x1_inp1" 26.5491
+cap "gnd!" "x1_inp2" 144.957
+cap "x2_inp1" "x1_inp2" 853.289
+cap "vdd!" "x1_inp1" 62.69
+cap "vdd!" "x1_vout" 34.855
+cap "d0" "x1_inp2" 144.905
+cap "gnd!" "x2_inp1" 102.05
+cap "x1_inp1" "vref1" 52.3628
+cap "x1_inp1" "x1_inp2" 31.4237
+cap "vref5" "gnd!" 29.7728
+cap "vdd!" "x1_inp2" 33.516
+cap "d0" "x2_inp1" 260.867
+cap "vref5" "x2_inp1" 38.8643
+subcap "gnd!" -2069.64
+subcap "vref5" -984.823
+subcap "x2_inp1" -916.931
+subcap "x1_inp2" -1786.19
+subcap "x1_inp1" -2837.15
+cap "x1_inp2" "x2_inp1" -4.24752
+cap "x1_inp2" "x1_inp1" 3.08188
+cap "vref5" "switch_layout_1/dinb" 12.589
+cap "x1_inp2" "switch_layout_1/vdd!" 30.5094
+cap "switch_layout_1/vdd!" "x2_inp1" 202.359
+cap "x2_inp1" "switch_layout_2/gnd!" 29.7
+cap "switch_layout_1/vdd!" "switch_layout_2/gnd!" 48.5904
+cap "switch_layout_1/vdd!" "d0" 73.6415
+cap "switch_layout_2/gnd!" "d0" 80.0134
+cap "vref5" "x2_inp1" 37.5702
+cap "x2_inp1" "switch_layout_1/dinb" 6.04225
+cap "vref5" "switch_layout_2/gnd!" 210.1
+cap "vref5" "d0" 12.3109
+cap "switch_layout_1/dinb" "d0" 28.2597
+subcap "x2_vout" -1210.41
+cap "switch_layout_2/vout" "switch_layout_1/inp1" 2.61905
+cap "switch_layout_1/vout" "switch_layout_1/inp1" 14.0436
+cap "switch_layout_1/inp2" "switch_layout_1/dd" 7.68794
+cap "switch_layout_1/vdd!" "switch_layout_1/dd" 72.369
+cap "switch_layout_1/inp1" "switch_layout_1/dd" 6.04225
+cap "switch_layout_1/dinb" "switch_layout_1/inp2" 29.2253
+cap "switch_layout_2/vout" "switch_layout_1/inp1" 2.24185
+cap "switch_layout_2/gnd!" "switch_layout_1/inp2" 141.976
+cap "switch_layout_1/vout" "switch_layout_1/dd" -2.38
+cap "switch_layout_2/inp2" "switch_layout_1/vdd!" 19.1462
+cap "switch_layout_2/gnd!" "switch_layout_1/vdd!" 28.075
+cap "switch_layout_2/gnd!" "switch_layout_1/inp1" 16.0696
+cap "switch_layout_2/inp2" "switch_layout_1/inp1" 102.263
+cap "switch_layout_1/vdd!" "switch_layout_1/inp1" 127.078
+cap "switch_layout_1/vout" "switch_layout_1/inp2" 17.8526
+subcap "x2_vout" -1240.51
+subcap "d1" -111.531
+cap "switch_layout_1/inp2" "switch_layout_1/w_1816_172#" 1.77636e-15
+cap "x2_vout" "switch_layout_0/gnd!" 10.4634
+cap "switch_layout_1/dd" "x2_vout" -27.63
+cap "switch_layout_2/inp2" "switch_layout_1/inp1" 26.8533
+cap "d1" "switch_layout_0/dinb" 0.45
+cap "switch_layout_1/dd" "switch_layout_1/inp1" 49.4579
+subcap "d1" -140.593
+cap "switch_layout_0/dinb" "d1" 0.45
+cap "switch_layout_0/inp2" "x2_vout" 62.0882
+cap "switch_layout_0/gnd!" "x2_vout" 75.843
+cap "switch_layout_0/vout" "x2_vout" 5.06829
+subcap "out_v" -124.899
+cap "out_v" "switch_layout_0/inp2" 4.31937
+subcap "gnd!" -2004.6
+subcap "vdd!" -2520.24
+subcap "d0" -185.46
+subcap "x1_inp1" -929.795
+cap "x1_inp2" "switch_layout_2/vdd!" 30.5094
+cap "switch_layout_2/gnd!" "switch_layout_2/vdd!" 48.5904
+cap "d0" "switch_layout_2/dinb" 13.6
+cap "x1_inp1" "d0" 0.00705782
+cap "switch_layout_2/gnd!" "x1_inp2" 207
+cap "x1_inp1" "switch_layout_2/dinb" 5.7973
+cap "switch_layout_2/vdd!" "switch_layout_2/INV_1/a_160_n242#" -1.06021
+cap "switch_layout_2/vdd!" "x1_inp1" 184.33
+cap "x1_inp2" "d0" 2.04487
+cap "x1_inp1" "vref1" 7.77067
+cap "switch_layout_2/gnd!" "x2_inp1" 29.7
+cap "switch_layout_2/gnd!" "d0" 59.9955
+cap "x1_inp2" "switch_layout_2/dinb" 12.3344
+cap "x1_inp2" "x1_inp1" 3.08188
+subcap "x1_vout" -1157.76
+cap "switch_layout_2/dd" "vdd!" 143.694
+cap "switch_layout_2/vout" "switch_layout_2/inp2" 17.3406
+cap "switch_layout_2/dinb" "switch_layout_2/inp2" 28.6349
+cap "vdd!" "switch_layout_2/gnd!" 28.075
+cap "switch_layout_2/vout" "switch_layout_2/inp1" 13.3851
+cap "switch_layout_2/dd" "switch_layout_2/inp2" 7.47656
+cap "switch_layout_2/gnd!" "switch_layout_1/inp1" 16.0696
+cap "switch_layout_2/vout" "switch_layout_2/dd" 7.10543e-15
+cap "switch_layout_2/gnd!" "switch_layout_2/inp2" 112
+cap "vdd!" "switch_layout_2/inp2" 19.1462
+cap "switch_layout_2/dd" "switch_layout_2/inp1" 5.7973
+cap "switch_layout_1/inp1" "switch_layout_2/inp2" 102.263
+cap "switch_layout_2/vout" "switch_layout_1/inp1" 4.8609
+cap "vdd!" "switch_layout_2/dinb" 44.774
+cap "switch_layout_2/inp1" "vdd!" 93.1455
+subcap "x1_vout" -1247.85
+cap "switch_layout_2/inp1" "switch_layout_2/dd" 47.1802
+cap "x1_vout" "switch_layout_2/dd" 4.4386
+cap "switch_layout_0/dinb" "d1" 0.15
+cap "switch_layout_1/inp1" "switch_layout_2/inp2" 26.8533
+cap "x1_vout" "switch_layout_0/vdd!" 26.8889
+subcap "d1" -145.01
+cap "switch_layout_0/vdd!" "x1_vout" 168.46
+cap "d1" "switch_layout_0/dinb" 0.15
+cap "switch_layout_0/inp1" "x1_vout" 90.2
+cap "x1_vout" "switch_layout_0/INV_1/a_160_n242#" 5.23171
+cap "x1_vout" "switch_layout_0/dinb" 5.23171
+cap "switch_layout_0/vdd!" "switch_layout_0/INV_1/a_160_n242#" 130.078
+cap "switch_layout_0/vout" "x1_vout" 5.60784
+cap "switch_layout_0/inp1" "out_v" 6.3871
+cap "switch_layout_0/dd" "switch_layout_0/inp1" 112.545
+merge "switch_layout_0/vout" "out_v" -126.445 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -155954 -148 0 0 0 0 0 0 0 0 0 0
+merge "switch_layout_0/gnd!" "switch_layout_1/gnd!" -652.276 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -589800 -892 0 0 0 0 0 0 0 0 0 0
+merge "switch_layout_1/gnd!" "switch_layout_2/gnd!"
+merge "switch_layout_2/gnd!" "gnd!"
+merge "switch_layout_1/inp2" "res250_layout_0/a_410_n248#" -114.193 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8548 -444 0 0 0 0 0 0 0 0 0 0 0 0
+merge "res250_layout_0/a_410_n248#" "vref5"
+merge "switch_layout_0/VSUBS" "switch_layout_1/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "switch_layout_1/VSUBS" "switch_layout_2/VSUBS"
+merge "switch_layout_2/VSUBS" "res250_layout_0/VSUBS"
+merge "res250_layout_0/VSUBS" "res500_layout_0/VSUBS"
+merge "res500_layout_0/VSUBS" "res500_layout_1/VSUBS"
+merge "res500_layout_1/VSUBS" "res500_layout_2/VSUBS"
+merge "res500_layout_2/VSUBS" "VSUBS"
+merge "switch_layout_2/inp1" "res500_layout_0/a_528_n240#" -125.435 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 85584 -744 0 0 0 0 0 0 0 0 0 0 0 0
+merge "res500_layout_0/a_528_n240#" "res500_layout_2/a_238_n246#"
+merge "res500_layout_2/a_238_n246#" "x1_inp1"
+merge "switch_layout_2/inp2" "res500_layout_1/a_238_n246#" -342.343 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -153668 -728 0 0 0 0 0 0 0 0 0 0 0 0
+merge "res500_layout_1/a_238_n246#" "res500_layout_2/a_528_n240#"
+merge "res500_layout_2/a_528_n240#" "x1_inp2"
+merge "res500_layout_0/a_238_n246#" "vref1" -72.2082 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3144 -252 0 0 0 0 0 0 0 0 0 0 0 0
+merge "switch_layout_0/inp1" "switch_layout_2/vout" -893.415 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -55480 -2996 12084 -148 0 0 0 0 0 0 0 0 0 0
+merge "switch_layout_2/vout" "x1_vout"
+merge "switch_layout_1/inp1" "res250_layout_0/a_238_n246#" 89.2908 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 238144 -712 99704 0 0 0 0 0 0 0 0 0 0 0
+merge "res250_layout_0/a_238_n246#" "res500_layout_1/a_528_n240#"
+merge "res500_layout_1/a_528_n240#" "x2_inp1"
+merge "switch_layout_0/vdd!" "switch_layout_2/vdd!" -296.627 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1030510 -760 0 0 0 0 -150028 -2804 0 0 0 0
+merge "switch_layout_2/vdd!" "switch_layout_1/vdd!"
+merge "switch_layout_1/vdd!" "vdd!"
+merge "switch_layout_2/din" "switch_layout_1/din" -139.047 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5240 -488 0 0 0 0 0 0 0 0 0 0 0 0
+merge "switch_layout_1/din" "d0"
+merge "switch_layout_0/inp2" "switch_layout_1/vout" -898.987 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -97900 -2968 -464 -140 0 0 0 0 0 0 0 0 0 0
+merge "switch_layout_1/vout" "x2_vout"
+merge "switch_layout_0/din" "d1" -151.748 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16592 -496 0 0 0 0 0 0 0 0 0 0 0 0

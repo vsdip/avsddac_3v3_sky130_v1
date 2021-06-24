@@ -1,0 +1,399 @@
+timestamp 1624221218
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 2200000 3050000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+use res250_layout res250_layout_0 1 0 165760 0 1 5268
+use switch_layout switch_layout_0 1 0 202454 0 1 -818
+use 9bitdac_layout 9bitdac_layout_1 1 0 -428 0 1 -55716
+use 9bitdac_layout 9bitdac_layout_0 1 0 0 0 1 1976
+node "m1_173128_n5604#" 1 164.382 173128 -5604 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 31464 980 0 0 0 0 0 0 0 0 0 0
+node "gnd!" 0 30520.6 202616 -630 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10296 420 5506848 138384 0 0 0 0 0 0 0 0
+node "vdd!" 1 30862.1 203326 164 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6956 336 13156 504 18172 620 13359140 152620 0 0 0 0
+node "inp2" 29 120.192 165560 -52582 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8640 408 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_173134_n6656#" 221 756.588 173134 -6656 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77068 2492 0 0 0 0 0 0 0 0 0 0 0 0
+node "x2_out_v" 22 20603.6 198296 -28336 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1905696 68512 0 0 0 0 0 0 0 0 0 0 0 0
+node "d9" 28 194.614 202362 -308 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21312 636 0 0 0 0 0 0 0 0 0 0 0 0
+node "out_v" 34 182.437 204862 -144 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13580 528 4176 260 0 0 0 0 0 0 0 0 0 0
+node "d7" 13 17823.4 191448 -27726 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2011956 57332 41120 1188 0 0 0 0 0 0 0 0 0 0
+node "d0" 1451 4604.38 166550 -4490 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 203564 9876 145836 8100 0 0 0 0 0 0 0 0 0 0
+node "d6" 14 18661 187970 -27264 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2018292 59216 88760 2640 0 0 0 0 0 0 0 0 0 0
+node "d5" 17 18353.4 182738 -2864 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1527616 59184 73724 3496 0 0 0 0 0 0 0 0 0 0
+node "d4" 3209 10971.4 179390 1988 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1076716 33764 111084 3796 0 0 0 0 0 0 0 0 0 0
+node "d3" 2056 7679.5 176548 -6356 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 725316 22224 149048 4412 0 0 0 0 0 0 0 0 0 0
+node "d2" 1014 4836.91 173128 -5284 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 531544 13436 130668 3524 0 0 0 0 0 0 0 0 0 0
+node "d1" 1717 4815.3 169616 -3702 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 347620 14072 73832 3168 0 0 0 0 0 0 0 0 0 0
+node "x2_vref1" 21 103338 368 -3772 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8011580 343552 271064 6724 0 0 0 0 0 0 0 0 0 0
+node "x1_vref5" 26 101.812 165972 5160 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6608 348 0 0 0 0 0 0 0 0 0 0 0 0
+node "d8" 20 36282 195658 28848 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4353364 116120 60312 1772 0 0 0 0 0 0 0 0 0 0
+node "x1_out_v" 26 21580.8 198700 29356 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2358044 70544 0 0 0 0 0 0 0 0 0 0 0 0
+node "inp1" 26 103.016 796 53914 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6720 352 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "d4" "vdd!" 49.44
+cap "x1_out_v" "vdd!" 36.66
+cap "d2" "vdd!" 55.88
+cap "li_173134_n6656#" "m1_173128_n5604#" 75.464
+cap "d3" "vdd!" 50.36
+cap "vdd!" "d1" 44.84
+cap "gnd!" "d6" 55.12
+cap "d5" "vdd!" 42.08
+cap "gnd!" "vdd!" 87.68
+cap "li_173134_n6656#" "d2" 9.35
+cap "m1_173128_n5604#" "d2" 83.8104
+cap "d8" "vdd!" 54.96
+cap "gnd!" "d7" 57.264
+cap "d4" "gnd!" 51.904
+cap "gnd!" "d2" 59.408
+cap "d3" "gnd!" 52.976
+cap "gnd!" "d1" 46.544
+cap "gnd!" "d5" 43.328
+cap "vdd!" "d6" 52.2
+cap "d0" "x2_vref1" 312.184
+cap "gnd!" "d8" 58.336
+cap "d7" "vdd!" 54.04
+cap "9bitdac_layout_1/d8" "9bitdac_layout_1/switch_layout_0/dinb" 9.72632
+cap "9bitdac_layout_1/d8" "9bitdac_layout_1/switch_layout_0/INV_0/w_0_0#" 6.05
+subcap "x2_out_v" -20432.4
+subcap "x2_out_v" -20499.7
+cap "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/switch_layout_0/INV_0/w_0_0#" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/d5" 30.5714
+cap "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/d5" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/switch_layout_0/INV_0/w_0_0#" 30.5714
+subcap "d6" -17696.7
+cap "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/switch_layout_0/INV_0/w_0_0#" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/d6" 33
+subcap "d7" -18052.6
+subcap "d7" -16595
+cap "9bitdac_layout_1/8bitdac_layout_1/switch_layout_0/INV_0/w_0_0#" "9bitdac_layout_1/8bitdac_layout_1/d7" 60.1716
+cap "9bitdac_layout_1/d8" "9bitdac_layout_1/switch_layout_0/dinb" 17.1947
+cap "9bitdac_layout_1/d8" "9bitdac_layout_1/switch_layout_0/INV_0/w_0_0#" 61.655
+subcap "x2_out_v" -20471
+subcap "x2_out_v" -20488.4
+cap "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/vdd!" "d5" 30.896
+subcap "d6" -18457.5
+cap "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/switch_layout_0/INV_0/w_0_0#" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/switch_layout_0/din" 24.8742
+cap "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/switch_layout_0/din" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/vdd!" 35.3872
+cap "d7" "9bitdac_layout_1/8bitdac_layout_1/vdd!" 36.47
+cap "d8" "9bitdac_layout_1/vdd!" 38.996
+cap "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/vdd!" "d5" 29.734
+cap "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/d4" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/vdd!" 27.984
+cap "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/switch_layout_0/INV_0/w_0_0#" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/d4" 47.0985
+cap "d5" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/x1_out_v" 135.11
+cap "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/vdd!" "d4" 36.5664
+cap "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/vdd!" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/d3" 38.2848
+cap "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/switch_layout_0/INV_0/w_0_0#" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/d3" 47.0985
+cap "d4" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/switch_layout_0/dd" 14.1601
+cap "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/x1_out_v" "d4" 131.603
+subcap "m1_173128_n5604#" -172.619
+subcap "li_173134_n6656#" -602.185
+cap "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/d2" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/switch_layout_0/INV_0/w_0_0#" 28.0797
+subcap "m1_173128_n5604#" -170.372
+cap "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/d2" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/switch_layout_0/INV_0/w_0_0#" 63.1832
+cap "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/switch_layout_0/INV_0/a_160_n242#" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/d2" 25.8333
+subcap "d3" -6780.69
+cap "d3" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/x1_out_v" 104.409
+subcap "d0" -4900.34
+subcap "d0" -3617.28
+cap "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/switch_layout_2/vdd!" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/switch_layout_2/din" 84.3832
+cap "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/x1_inp1" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/switch_layout_2/din" 53.6045
+cap "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/switch_layout_2/dinb" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/switch_layout_2/din" 29.5765
+cap "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/switch_layout_0/INV_0/w_0_0#" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/d1" 69.9265
+cap "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/d1" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/x1_vout" 132.501
+subcap "m1_173128_n5604#" -77.1412
+subcap "d2" -4574.78
+cap "d2" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/x1_out_v" 17.7073
+cap "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/x1_out_v" "m1_173128_n5604#" 40.4328
+cap "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/x1_out_v" "li_173134_n6656#" 16.5
+cap "d2" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/vdd!" 21.3616
+subcap "m1_173128_n5604#" -84.7316
+subcap "d2" -4582.84
+cap "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/vdd!" "d2" -62.6496
+cap "m1_173128_n5604#" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/x1_out_v" -40.2866
+cap "d2" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/x1_out_v" 14.4878
+cap "li_173134_n6656#" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/x1_out_v" 13.0263
+subcap "x2_vref1" -102838
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" 0.266129
+cap "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" "x2_vref1" 17.7287
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" 61.4362
+cap "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" "x2_vref1" 61.4362
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" 61.4362
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" 61.4362
+cap "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" "x2_vref1" 61.4362
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" 61.4362
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" 61.4362
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" 61.4362
+cap "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" "x2_vref1" 61.4362
+cap "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" "x2_vref1" 61.4362
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" 61.4362
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" 61.4362
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" 61.4362
+cap "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" "x2_vref1" 61.4362
+cap "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" "x2_vref1" 61.4362
+subcap "d0" -4941.96
+cap "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" "x2_vref1" 61.3484
+subcap "d0" -4080.24
+cap "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" "d0" 28.0439
+cap "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/switch_layout_2/vdd!" "d0" 29.7278
+cap "gnd!" "d0" 68.1068
+cap "d0" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/x1_out_v" 36.592
+cap "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/switch_layout_2/vdd!" 19.6372
+cap "d0" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/x1_inp1" 104.064
+cap "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/switch_layout_2/vdd!" "gnd!" 70.594
+cap "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/switch_layout_2/vdd!" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/x1_out_v" 29.216
+cap "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" "gnd!" 36.2578
+cap "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/x1_out_v" "gnd!" 48.844
+subcap "d1" -4156.38
+cap "d1" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/vdd!" 34.1496
+cap "d1" "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" 37.3527
+cap "d1" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/x1_out_v" 81.656
+cap "d2" "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" 14.2946
+cap "d2" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/x1_out_v" 40.0053
+cap "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/x1_out_v" "d2" -38.3562
+cap "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" "d2" -60.4511
+cap "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/x1_out_v" "d3" 76.6972
+cap "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" "d3" 45.4748
+cap "d4" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/x1_out_v" 72.0589
+cap "d4" "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" 40.4282
+subcap "d5" -17690.8
+cap "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" "d5" 31.3552
+cap "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/x1_out_v" "d5" 66.9686
+subcap "d5" -18041.5
+cap "d6" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/x1_out_v" 120.501
+cap "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" "d6" 28.2714
+cap "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" "d7" 73.4336
+cap "9bitdac_layout_1/x1_out_v" "d7" 5.83333
+cap "9bitdac_layout_1/x1_out_v" "d8" 14.25
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" 70.2475
+cap "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" "x2_vref1" 228.713
+cap "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" "x2_vref1" 228.713
+cap "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" "x2_vref1" 228.713
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" 228.713
+cap "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" "x2_vref1" 228.713
+cap "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" "x2_vref1" 228.713
+cap "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" "x2_vref1" 228.713
+cap "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" "x2_vref1" 228.713
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" 228.713
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" 228.713
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" 228.713
+cap "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" "x2_vref1" 228.713
+cap "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" "x2_vref1" 228.713
+cap "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" "x2_vref1" 228.713
+cap "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" "x2_vref1" 228.713
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" 228.713
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" 228.713
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" 228.713
+cap "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" "x2_vref1" 228.713
+cap "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" "x2_vref1" 228.713
+cap "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" "x2_vref1" 228.713
+cap "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" "x2_vref1" 228.713
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" 228.713
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" 228.713
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" 228.713
+cap "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" "x2_vref1" 228.713
+cap "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" "x2_vref1" 228.713
+cap "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" "x2_vref1" 228.713
+cap "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" "x2_vref1" 228.713
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" 228.713
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" 228.713
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" 227.344
+cap "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" "x2_vref1" 220
+cap "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" "x2_vref1" 220
+cap "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" "x2_vref1" 220
+cap "9bitdac_layout_1/8bitdac_layout_0/x1_out_v" "x2_vref1" 157.807
+cap "x2_vref1" "9bitdac_layout_1/x1_out_v" 9.12766
+cap "9bitdac_layout_1/x1_out_v" "x2_vref1" 163.83
+cap "9bitdac_layout_1/x1_out_v" "x2_vref1" 163.83
+cap "9bitdac_layout_1/x1_out_v" "x2_vref1" 163.83
+cap "9bitdac_layout_1/x1_out_v" "x2_vref1" 163.83
+cap "9bitdac_layout_1/x1_out_v" "x2_vref1" 163.83
+cap "x2_vref1" "9bitdac_layout_1/x1_out_v" 163.83
+cap "x2_vref1" "9bitdac_layout_1/x1_out_v" 163.83
+cap "9bitdac_layout_1/x1_out_v" "x2_vref1" 163.83
+cap "9bitdac_layout_1/x1_out_v" "x2_vref1" 163.83
+cap "9bitdac_layout_1/x1_out_v" "x2_vref1" 163.83
+cap "9bitdac_layout_1/x1_out_v" "x2_vref1" 163.83
+cap "9bitdac_layout_1/x1_out_v" "x2_vref1" 163.83
+cap "x2_vref1" "9bitdac_layout_1/x1_out_v" 163.83
+cap "x2_vref1" "9bitdac_layout_1/x1_out_v" 163.83
+cap "9bitdac_layout_1/x1_out_v" "x2_vref1" 163.83
+cap "9bitdac_layout_1/x1_out_v" "x2_vref1" 163.83
+cap "9bitdac_layout_1/x1_out_v" "x2_vref1" 175.358
+cap "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" "x2_vref1" 37.875
+cap "x2_vref1" "9bitdac_layout_1/x1_out_v" 190.909
+cap "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" "x2_vref1" 131.25
+cap "x2_vref1" "9bitdac_layout_1/x1_out_v" 190.909
+cap "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" "x2_vref1" 131.25
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" 131.25
+cap "9bitdac_layout_1/x1_out_v" "x2_vref1" 190.909
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" 131.25
+cap "x2_vref1" "9bitdac_layout_1/x1_out_v" 190.909
+cap "9bitdac_layout_1/x1_out_v" "x2_vref1" 190.909
+cap "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" "x2_vref1" 131.25
+cap "9bitdac_layout_1/x1_out_v" "x2_vref1" 190.909
+cap "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" "x2_vref1" 131.25
+cap "9bitdac_layout_1/x1_out_v" "x2_vref1" 190.909
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" 131.25
+cap "x2_vref1" "9bitdac_layout_1/x1_out_v" 190.909
+cap "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" "x2_vref1" 131.25
+cap "9bitdac_layout_1/x1_out_v" "x2_vref1" 190.909
+cap "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" "x2_vref1" 131.25
+cap "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" "x2_vref1" 131.25
+cap "x2_vref1" "9bitdac_layout_1/x1_out_v" 190.909
+cap "x2_vref1" "9bitdac_layout_1/x1_out_v" 190.909
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" 131.25
+cap "9bitdac_layout_1/x1_out_v" "x2_vref1" 190.909
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" 131.25
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" 131.25
+cap "x2_vref1" "9bitdac_layout_1/x1_out_v" 190.909
+cap "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" "x2_vref1" 131.25
+cap "9bitdac_layout_1/x1_out_v" "x2_vref1" 190.909
+cap "9bitdac_layout_1/x1_out_v" "x2_vref1" 190.909
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" 131.25
+cap "x2_vref1" "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" 131.062
+cap "x2_vref1" "9bitdac_layout_1/x1_out_v" 190.636
+cap "d0" "9bitdac_layout_1/x1_out_v" 80.2367
+cap "d0" "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" 40.0181
+cap "vdd!" "9bitdac_layout_1/x1_out_v" 30.9576
+cap "vdd!" "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" 22.2496
+cap "9bitdac_layout_1/x1_out_v" "gnd!" 51.1324
+cap "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" "gnd!" 39.6904
+cap "d1" "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" 48.4773
+cap "d1" "9bitdac_layout_1/x1_out_v" 94.0602
+cap "9bitdac_layout_1/x1_out_v" "d2" 23.2568
+cap "d2" "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" 20.1117
+cap "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" "d2" -55.2121
+cap "9bitdac_layout_1/x1_out_v" "d2" -80.5106
+cap "9bitdac_layout_1/x1_out_v" "d3" 80.548
+cap "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" "d3" 55.5956
+cap "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" "d4" 50.041
+cap "9bitdac_layout_1/x1_out_v" "d4" 73.4179
+subcap "d5" -18025.7
+cap "d5" "9bitdac_layout_1/x1_out_v" 66.4143
+cap "d5" "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" 40.4819
+subcap "d5" -18472.9
+cap "9bitdac_layout_1/x1_out_v" "d6" 107.464
+cap "d6" "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" 61.2327
+cap "9bitdac_layout_1/8bitdac_layout_1/x1_out_v" "d7" 63.6771
+cap "9bitdac_layout_1/x1_out_v" "d7" 98.2207
+cap "d8" "9bitdac_layout_1/x1_out_v" 173.55
+subcap "gnd!" -30356.9
+cap "d9" "switch_layout_0/dinb" 0.445946
+subcap "gnd!" -29573.9
+subcap "d9" -190.914
+cap "d9" "switch_layout_0/dinb" 0.929577
+subcap "out_v" -561.389
+cap "x2_vref1" "9bitdac_layout_0/d7" 46.1558
+cap "9bitdac_layout_0/d7" "d0" 243.851
+cap "9bitdac_layout_0/d7" "x2_vref1" -37.3249
+cap "d1" "9bitdac_layout_0/d7" 149.062
+cap "d2" "9bitdac_layout_0/d7" 31.284
+cap "9bitdac_layout_0/d7" "d2" -26.4687
+cap "9bitdac_layout_0/d7" "d3" 90.1809
+cap "d4" "9bitdac_layout_0/d7" 133.713
+cap "d5" "9bitdac_layout_0/d7" 74.7583
+cap "9bitdac_layout_0/d7" "d6" 123.283
+subcap "gnd!" -29375.6
+subcap "d9" -92.8726
+subcap "gnd!" -32285
+subcap "vdd!" -28177.2
+cap "switch_layout_0/INV_1/a_160_n242#" "vdd!" 62.9367
+cap "switch_layout_0/dd" "x1_out_v" 64.2027
+cap "9bitdac_layout_0/8bitdac_layout_1/d3" "x2_vref1" 16.0686
+cap "9bitdac_layout_0/d7" "x2_vref1" 11.1711
+cap "9bitdac_layout_0/8bitdac_layout_1/d2" "x2_vref1" 11.3373
+cap "9bitdac_layout_0/8bitdac_layout_1/d1" "x2_vref1" 22.866
+cap "x2_vref1" "9bitdac_layout_0/8bitdac_layout_1/d2" -17.1651
+cap "9bitdac_layout_0/8bitdac_layout_1/d1" "x2_vref1" 24.6161
+cap "9bitdac_layout_0/8bitdac_layout_1/d3" "d0" 64.688
+cap "9bitdac_layout_0/d7" "x2_vref1" 18.8608
+cap "d0" "9bitdac_layout_0/8bitdac_layout_1/d2" 52.016
+cap "d0" "9bitdac_layout_0/8bitdac_layout_1/d1" 39.344
+cap "9bitdac_layout_0/8bitdac_layout_1/d3" "x2_vref1" -12.7029
+cap "9bitdac_layout_0/d7" "d1" 22.7857
+cap "9bitdac_layout_0/d7" "d2" 5.96809
+cap "d2" "9bitdac_layout_0/d7" 9.82979
+cap "d3" "9bitdac_layout_0/d7" 11.3929
+subcap "d4" -10297.5
+cap "d4" "9bitdac_layout_0/d7" 19.1613
+cap "9bitdac_layout_0/d7" "d5" 11.4583
+cap "d6" "9bitdac_layout_0/d7" 16.9853
+cap "x2_vref1" "9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_0/d4" -5.54
+cap "x2_vref1" "9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_0/d0" 6.115
+cap "9bitdac_layout_0/8bitdac_layout_1/d4" "x2_vref1" 12.5536
+cap "x2_vref1" "9bitdac_layout_0/8bitdac_layout_1/d5" 10.4074
+cap "x2_vref1" "9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_0/d2" 38.308
+cap "x2_vref1" "9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_0/d1" -1.9086
+cap "x2_vref1" "9bitdac_layout_0/8bitdac_layout_1/d6" 11.1228
+cap "x2_vref1" "9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_0/d3" 34.0156
+cap "9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_0/d0" "9bitdac_layout_0/8bitdac_layout_1/d4" 61.872
+cap "x2_vref1" "9bitdac_layout_0/8bitdac_layout_1/d4" -20.7142
+cap "x2_vref1" "9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_0/d2" 14.069
+cap "9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_0/d0" "x2_vref1" -182.74
+cap "9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_0/d3" "x2_vref1" -68.3932
+cap "9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_0/d0" "9bitdac_layout_0/8bitdac_layout_1/d5" 57.648
+cap "x2_vref1" "9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_0/d1" -90.6158
+cap "9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_0/d0" "9bitdac_layout_0/8bitdac_layout_1/d6" 59.056
+cap "x2_vref1" "9bitdac_layout_0/8bitdac_layout_1/d5" -23.6128
+cap "x2_vref1" "9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_0/d4" -61.2502
+cap "x2_vref1" "9bitdac_layout_0/8bitdac_layout_1/d6" -22.6466
+cap "d5" "9bitdac_layout_0/8bitdac_layout_1/d6" 0.806452
+cap "x2_vref1" "9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_0/d4" 11.7456
+cap "9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_0/d5" "x2_vref1" 47.1506
+subcap "x1_vref5" -8.6131
+cap "9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_0/d4" "x2_vref1" -28.3182
+cap "x2_vref1" "9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_0/d5" 29.7582
+subcap "d8" -36424.6
+subcap "d8" -35791.5
+cap "9bitdac_layout_0/x2_out_v" "9bitdac_layout_0/d8" 159.917
+cap "9bitdac_layout_0/x2_out_v" "9bitdac_layout_0/gnd!" 54.6722
+subcap "x1_out_v" -21548.9
+subcap "x1_out_v" -22326.7
+subcap "d8" -36138.4
+subcap "d8" -35550.7
+cap "9bitdac_layout_0/gnd!" "9bitdac_layout_0/d8" 52.0386
+subcap "x1_out_v" -20624.7
+subcap "x1_out_v" -21220.4
+cap "9bitdac_layout_0/vdd!" "9bitdac_layout_0/x1_out_v" 5.498
+cap "9bitdac_layout_0/x1_out_v" "vdd!" -60.608
+subcap "inp1" -196.928
+subcap "inp1" -137.489
+subcap "inp1" -31.3433
+merge "res250_layout_0/a_410_n248#" "9bitdac_layout_1/inp1" -34357.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41201412 -259126 -155730 -4832 0 0 0 0 0 0 0 0 0 0
+merge "9bitdac_layout_1/inp1" "x2_vref1"
+merge "switch_layout_0/vout" "out_v" -149.187 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -177676 -220 0 0 0 0 0 0 0 0 0 0
+merge "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/d2" "li_173134_n6656#" -330.163 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -27528 -1108 0 0 0 0 0 0 0 0 0 0 0 0
+merge "res250_layout_0/VSUBS" "9bitdac_layout_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "9bitdac_layout_0/VSUBS" "switch_layout_0/VSUBS"
+merge "switch_layout_0/VSUBS" "9bitdac_layout_1/VSUBS"
+merge "9bitdac_layout_1/VSUBS" "VSUBS"
+merge "9bitdac_layout_0/inp1" "inp1" -38.6528 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1024 -144 0 0 0 0 0 0 0 0 0 0 0 0
+merge "9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_0/d0" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/switch_layout_2/din" -851.98 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 755712 -1156 494822 -7568 0 0 0 0 0 0 0 0 0 0
+merge "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/switch_layout_2/din" "d0"
+merge "9bitdac_layout_0/8bitdac_layout_1/d1" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/d1" -2271.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3806 -6246 35748 -3166 0 0 0 0 0 0 0 0 0 0
+merge "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/d1" "d1"
+merge "9bitdac_layout_1/inp2" "inp2" -39.1438 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -696 -140 0 0 0 0 0 0 0 0 0 0 0 0
+merge "9bitdac_layout_0/8bitdac_layout_1/d2" "d2" -1071.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 340092 -3686 -195192 -1616 0 0 0 0 0 0 0 0 0 0
+merge "9bitdac_layout_0/8bitdac_layout_1/d3" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/d3" -5797.31 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -198296 -16838 -47514 -5542 0 0 0 0 0 0 0 0 0 0
+merge "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/d3" "d3"
+merge "9bitdac_layout_0/8bitdac_layout_1/d4" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/d4" -6924.73 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -326970 -21376 -8706 -4554 0 0 0 0 0 0 0 0 0 0
+merge "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/d4" "d4"
+merge "9bitdac_layout_0/vdd!" "switch_layout_0/vdd!" -1001.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -648 -172 0 0 0 0 -163720 -4654 0 0 0 0
+merge "switch_layout_0/vdd!" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/switch_layout_2/vdd!"
+merge "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/switch_layout_2/vdd!" "vdd!"
+merge "9bitdac_layout_0/8bitdac_layout_1/d6" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/switch_layout_0/din" -3922.08 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -134725 -12228 -22860 -2222 0 0 0 0 0 0 0 0 0 0
+merge "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/switch_layout_0/din" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/d6"
+merge "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/d6" "d6"
+merge "9bitdac_layout_0/8bitdac_layout_1/d5" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/d5" -8163.71 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1218989 -30480 -278021 -4090 0 0 0 0 0 0 0 0 0 0
+merge "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/d5" "d5"
+merge "9bitdac_layout_0/gnd!" "switch_layout_0/gnd!" -2180.28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -548772 -280 167750 -8778 0 0 0 0 0 0 0 0
+merge "switch_layout_0/gnd!" "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/m2_10768_43518#"
+merge "9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/m2_10768_43518#" "gnd!"
+merge "9bitdac_layout_0/d7" "9bitdac_layout_1/8bitdac_layout_1/d7" -3396.35 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -85308 -11274 -73560 -1188 0 0 0 0 0 0 0 0 0 0
+merge "9bitdac_layout_1/8bitdac_layout_1/d7" "d7"
+merge "9bitdac_layout_0/d8" "9bitdac_layout_1/d8" -2328.99 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -111140 -7258 -96740 -856 0 0 0 0 0 0 0 0 0 0
+merge "9bitdac_layout_1/d8" "d8"
+merge "9bitdac_layout_0/out_v" "switch_layout_0/inp1" -398.459 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -278550 -512 0 0 0 0 0 0 0 0 0 0 0 0
+merge "switch_layout_0/inp1" "x1_out_v"
+merge "switch_layout_0/inp2" "9bitdac_layout_1/out_v" -165.266 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -44288 -452 0 0 0 0 0 0 0 0 0 0 0 0
+merge "9bitdac_layout_1/out_v" "x2_out_v"
+merge "9bitdac_layout_0/inp2" "res250_layout_0/a_238_n246#" -68.9906 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9848 -284 0 0 0 0 0 0 0 0 0 0 0 0
+merge "res250_layout_0/a_238_n246#" "x1_vref5"
+merge "switch_layout_0/din" "d9" -128.181 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32736 -356 0 0 0 0 0 0 0 0 0 0 0 0
