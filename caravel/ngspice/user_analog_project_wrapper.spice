@@ -1,0 +1,153 @@
+* SPICE3 file created from user_analog_project_wrapper.ext - technology: sky130A
+
+.option scale=5000u
+
+C0 10bitdac_cap_layout_design_0/m1_208338_52576# 10bitdac_cap_layout_design_0/m3_208338_52576# 148.92fF
+C1 io_in[17] io_in[16] 67.70fF
+C2 io_in[17] io_in[18] 49.97fF
+C3 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_0/x1_out_v 10bitdac_cap_layout_design_0/10bitdac_layout_0/x2_vref1 8.21fF
+C4 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/x1_out_v 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_1/x1_out_v 34.19fF
+C5 io_in[14] 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/d2 3.34fF
+C6 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_0/x1_out_v 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/x2_vref1 3.29fF
+C7 vdd io_in[20] 53.63fF
+C8 io_in[14] io_in[22] 4.02fF
+C9 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_1/x1_out_v 10bitdac_cap_layout_design_0/10bitdac_layout_0/x2_vref1 3.14fF
+C10 io_in[17] io_in[14] 3.34fF
+C11 vdd io_in[16] 7.35fF
+C12 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_0/7bitdac_layout_0/x1_out_v 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/x2_vref1 19.77fF
+C13 vdd io_in[18] 43.71fF
+C14 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_0/x2_vref1 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_0/7bitdac_layout_1/x1_out_v 12.72fF
+C15 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/x1_out_v 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_1/x2_vref1 3.09fF
+C16 io_in[16] io_in[20] 6.80fF
+C17 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_0/7bitdac_layout_0/x1_out_v 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/x2_vref1 19.77fF
+C18 io_in[20] io_in[18] 179.55fF
+C19 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_0/x1_out_v 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_0/7bitdac_layout_1/x1_out_v 2.44fF
+C20 io_in[16] io_in[18] 36.27fF
+C21 io_in[21] io_in[15] 22.94fF
+C22 io_in[14] io_in[20] 11.54fF
+C23 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_1/x1_out_v 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_1/x1_out_v 2.44fF
+C24 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/x1_out_v 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_1/x2_vref1 3.09fF
+C25 io_in[14] io_in[16] 31.27fF
+C26 io_in[14] io_in[18] 5.05fF
+C27 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/d2 io_in[15] 20.08fF
+C28 io_in[21] io_in[22] 23.83fF
+C29 io_in[17] io_in[15] 20.08fF
+C30 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_1/x1_out_v 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/x1_out_v 34.19fF
+C31 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_1/x2_vref1 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_1/x1_out_v 12.72fF
+C32 io_in[20] io_in[15] 5.09fF
+C33 io_in[21] io_in[20] 28.63fF
+C34 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_0/x1_out_v 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/x2_vref1 3.29fF
+C35 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_1/x1_out_v 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_1/x2_vref1 12.72fF
+C36 io_in[16] io_in[15] 131.31fF
+C37 vdd 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/d2 8.96fF
+C38 io_in[15] io_in[18] 7.44fF
+C39 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/x1_out_v 10bitdac_cap_layout_design_0/10bitdac_layout_0/x2_vref1 5.86fF
+C40 io_in[21] io_in[18] 15.27fF
+C41 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/d2 io_in[20] 16.85fF
+C42 io_in[17] vdd 9.76fF
+C43 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_1/x1_out_v 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_1/x1_out_v 2.44fF
+C44 io_in[16] 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/d2 67.70fF
+C45 io_in[14] io_in[15] 95.86fF
+C46 io_in[17] io_in[20] 16.90fF
+C47 io_in[21] io_in[14] 56.74fF
+C48 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/d2 io_in[18] 49.97fF
+C49 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_0/x1_out_v 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_0/7bitdac_layout_1/x1_out_v 2.44fF
+C50 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_0/x2_vref1 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_0/7bitdac_layout_1/x1_out_v 12.72fF
+X10bitdac_cap_layout_design_0 io_analog[7] 10bitdac_cap_layout_design_0/inp2 io_in[19]
++ io_in[20] io_in[18] io_in[17] io_in[16] io_in[15] io_in[14] io_in[21] io_in[22]
++ io_in[23] io_in[24] gnd vdd bitdac_cap_layout_design
+C51 vssa1 gnd 2.25fF **FLOATING
+C52 vdda2 gnd 13.04fF **FLOATING
+C53 vssa2 gnd 13.04fF **FLOATING
+C54 io_analog[10] gnd 6.83fF **FLOATING
+C55 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_1/x1_vref5 gnd 2.09fF **FLOATING
+C56 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_1/6bitdac_layout_1/5bitdac_layout_1/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C57 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_1/6bitdac_layout_1/5bitdac_layout_1/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C58 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_1/6bitdac_layout_1/5bitdac_layout_0/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C59 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_1/6bitdac_layout_1/5bitdac_layout_0/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C60 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_1/6bitdac_layout_0/5bitdac_layout_1/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C61 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_1/6bitdac_layout_0/5bitdac_layout_1/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C62 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_1/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C63 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_1/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C64 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/x1_vref5 gnd 2.09fF **FLOATING
+C65 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_1/5bitdac_layout_1/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C66 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_1/5bitdac_layout_1/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C67 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_1/5bitdac_layout_0/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C68 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_1/5bitdac_layout_0/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C69 10bitdac_cap_layout_design_0/inp2 gnd 2.06fF
+C70 vdd gnd 2199.98fF
+C71 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_1/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C72 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_1/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C73 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C74 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C75 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_0/7bitdac_layout_1/x1_vref5 gnd 2.09fF **FLOATING
+C76 io_in[20] gnd 878.63fF
+C77 io_in[18] gnd 99.75fF
+C78 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_0/7bitdac_layout_1/6bitdac_layout_1/5bitdac_layout_1/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C79 io_in[16] gnd 94.48fF
+C80 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_0/7bitdac_layout_1/6bitdac_layout_1/5bitdac_layout_1/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C81 io_in[15] gnd 4.08fF
+C82 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_0/7bitdac_layout_1/6bitdac_layout_1/5bitdac_layout_0/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C83 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_0/7bitdac_layout_1/6bitdac_layout_1/5bitdac_layout_0/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C84 io_in[14] gnd 939.40fF
+C85 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_0/7bitdac_layout_1/6bitdac_layout_0/5bitdac_layout_1/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C86 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_0/7bitdac_layout_1/6bitdac_layout_0/5bitdac_layout_1/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C87 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_0/7bitdac_layout_1/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C88 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_0/7bitdac_layout_1/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C89 io_in[21] gnd 487.40fF
+C90 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_0/7bitdac_layout_0/x1_vref5 gnd 2.09fF **FLOATING
+C91 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_0/7bitdac_layout_0/6bitdac_layout_1/5bitdac_layout_1/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C92 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_0/7bitdac_layout_0/6bitdac_layout_1/5bitdac_layout_1/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C93 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_0/7bitdac_layout_0/6bitdac_layout_1/5bitdac_layout_0/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C94 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_0/7bitdac_layout_0/6bitdac_layout_1/5bitdac_layout_0/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C95 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/x1_vref5 gnd 2.20fF **FLOATING
+C96 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_0/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_1/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C97 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_0/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_1/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C98 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_0/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C99 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_1/8bitdac_layout_0/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C100 io_in[22] gnd 369.47fF
+C101 io_in[23] gnd 95.31fF
+C102 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_1/x1_vref5 gnd 2.09fF **FLOATING
+C103 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_1/6bitdac_layout_1/5bitdac_layout_1/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C104 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_1/6bitdac_layout_1/5bitdac_layout_1/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C105 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_1/6bitdac_layout_1/5bitdac_layout_0/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C106 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_1/6bitdac_layout_1/5bitdac_layout_0/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C107 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_1/6bitdac_layout_0/5bitdac_layout_1/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C108 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_1/6bitdac_layout_0/5bitdac_layout_1/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C109 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_1/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C110 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_1/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C111 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_0/x1_vref5 gnd 2.09fF **FLOATING
+C112 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_1/5bitdac_layout_1/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C113 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_1/5bitdac_layout_1/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C114 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_1/5bitdac_layout_0/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C115 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_1/5bitdac_layout_0/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C116 10bitdac_cap_layout_design_0/10bitdac_layout_0/x1_vref5 gnd 2.10fF **FLOATING
+C117 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_1/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C118 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_1/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C119 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C120 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_1/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C121 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_0/7bitdac_layout_1/x1_vref5 gnd 2.09fF **FLOATING
+C122 io_in[17] gnd 157.86fF
+C123 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_0/7bitdac_layout_1/6bitdac_layout_1/5bitdac_layout_1/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C124 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_0/7bitdac_layout_1/6bitdac_layout_1/5bitdac_layout_1/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C125 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_0/7bitdac_layout_1/6bitdac_layout_1/5bitdac_layout_0/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C126 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_0/7bitdac_layout_1/6bitdac_layout_1/5bitdac_layout_0/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C127 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_0/7bitdac_layout_1/6bitdac_layout_1/5bitdac_layout_0/4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/x2_inp1 gnd 3.16fF **FLOATING
+C128 io_in[19] gnd 58.60fF
+C129 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_0/7bitdac_layout_1/6bitdac_layout_0/5bitdac_layout_1/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C130 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_0/7bitdac_layout_1/6bitdac_layout_0/5bitdac_layout_1/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C131 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_0/7bitdac_layout_1/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C132 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_0/7bitdac_layout_1/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C133 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_0/7bitdac_layout_0/x1_vref5 gnd 2.09fF **FLOATING
+C134 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_0/7bitdac_layout_0/6bitdac_layout_1/5bitdac_layout_1/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C135 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_0/7bitdac_layout_0/6bitdac_layout_1/5bitdac_layout_1/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C136 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_0/7bitdac_layout_0/6bitdac_layout_1/5bitdac_layout_0/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C137 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_0/7bitdac_layout_0/6bitdac_layout_1/5bitdac_layout_0/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C138 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/x1_vref5 gnd 2.20fF **FLOATING
+C139 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_0/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_1/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C140 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_0/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_1/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C141 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_0/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_1/x1_vref5 gnd 2.14fF **FLOATING
+C142 10bitdac_cap_layout_design_0/10bitdac_layout_0/9bitdac_layout_0/8bitdac_layout_0/7bitdac_layout_0/6bitdac_layout_0/5bitdac_layout_0/4bitdac_layout_0/x1_vref5 gnd 2.14fF **FLOATING
+C143 io_in[24] gnd 362.01fF
+C144 10bitdac_cap_layout_design_0/m3_208338_52576# gnd 22.37fF **FLOATING
+C145 10bitdac_cap_layout_design_0/m1_208338_52576# gnd 494.32fF **FLOATING

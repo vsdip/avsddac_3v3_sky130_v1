@@ -1,0 +1,20 @@
+--- 
+project: 
+  description: "Potentiometric 10bit DAC- avsddac_3v3_sky130_v1"
+  foundry: "SkyWater"
+  git_url: https://github.com/vsdip/avsddac_3v3_sky130_v1.git"
+  organization: "VSD Corp. Pvt. Ltd."
+  organization_url: "https://www.vlsisystemdesign.com/"
+  owner: "Skandha Deepsita, Shalini Kanna, Harshita Basavaraju"
+  process: "SKY130"
+  project_name: "Caravel"
+  project_id: "00000000"
+  tags: 
+    - "Open MPW"
+    - "Test Harness"
+  category: "Test Harness"
+  top_level_netlist: "verilog/gl/caravan.v"
+  user_level_netlist: "verilog/rtl/user_analog_project_wrapper.v"
+  version: "1.00"
+  cover_image: "Postlayout/Pictures/10bitdac layout desing.PNG "
+
