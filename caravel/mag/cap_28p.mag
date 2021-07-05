@@ -1,8 +1,6 @@
 magic
 tech sky130A
-timestamp 1624221218
-<< checkpaint >>
-rect -1614 -1856 13040 13079
+timestamp 1625518311
 << metal1 >>
 rect -984 12417 -496 12449
 rect -984 11818 12410 12417
