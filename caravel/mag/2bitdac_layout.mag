@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1625518311
+timestamp 1625520517
 << locali >>
 rect 400 1308 2254 1310
 rect 2630 1308 3014 1310
@@ -300,34 +300,34 @@ rect 1656 25 1668 89
 rect 1732 25 1854 89
 rect 1656 22 1854 25
 rect 1656 18 1772 22
-use res500_layout  res500_layout_0
-timestamp 1625518311
-transform 0 1 288 -1 0 598
-box 218 -288 598 -90
-use res500_layout  res500_layout_1
-timestamp 1625518311
-transform 0 1 288 -1 0 -34
-box 218 -288 598 -90
-use res500_layout  res500_layout_2
-timestamp 1625518311
-transform 0 1 296 -1 0 1046
-box 218 -288 598 -90
-use res250_layout  res250_layout_0
-timestamp 1625518311
-transform 0 1 340 -1 0 -598
-box 218 -342 484 -90
-use switch_layout  switch_layout_0
-timestamp 1625518311
-transform 1 0 3868 0 1 -434
-box 40 154 2460 1180
-use switch_layout  switch_layout_1
-timestamp 1625518311
-transform 1 0 764 0 1 -1230
-box 40 154 2460 1180
 use switch_layout  switch_layout_2
-timestamp 1625518311
+timestamp 1625520517
 transform 1 0 732 0 1 50
 box 40 154 2460 1180
+use switch_layout  switch_layout_1
+timestamp 1625520517
+transform 1 0 764 0 1 -1230
+box 40 154 2460 1180
+use switch_layout  switch_layout_0
+timestamp 1625520517
+transform 1 0 3868 0 1 -434
+box 40 154 2460 1180
+use res250_layout  res250_layout_0
+timestamp 1625520517
+transform 0 1 340 -1 0 -598
+box 218 -342 484 -90
+use res500_layout  res500_layout_2
+timestamp 1625520517
+transform 0 1 296 -1 0 1046
+box 218 -288 598 -90
+use res500_layout  res500_layout_1
+timestamp 1625520517
+transform 0 1 288 -1 0 -34
+box 218 -288 598 -90
+use res500_layout  res500_layout_0
+timestamp 1625520517
+transform 0 1 288 -1 0 598
+box 218 -288 598 -90
 << labels >>
 rlabel locali s 200 816 200 816 4 vref1
 rlabel locali s 196 412 196 412 4 x1_inp1
