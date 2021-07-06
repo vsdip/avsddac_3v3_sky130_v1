@@ -404,7 +404,7 @@ o type `y` when simulation asks for
 
 ## 8.Future Works
 
-Layout simulation of 10Bit Potentiometer DAC and plotting INL & DNL for 10Bit DAC layout. Runtime for layout can be reduced further.
+Runtime for layout can be reduced further.
 
 ## 9.Contributors
 
