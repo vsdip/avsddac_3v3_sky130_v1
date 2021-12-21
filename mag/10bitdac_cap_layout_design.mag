@@ -1,7 +1,14 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1625522882
+timestamp 1640022418
+<< error_s >>
+rect 210181 57576 210301 57604
+rect 210209 57560 210301 57576
+rect 210209 57528 210225 57560
+rect 210257 57528 210301 57560
+rect 210209 57512 210301 57528
+rect 210273 57484 210301 57512
 << locali >>
 rect 1224 111478 1280 111678
 rect 166990 55698 167030 58214
@@ -65,43 +72,43 @@ rect 210273 57512 210286 57576
 rect 205764 57504 210286 57512
 rect 205764 57500 205956 57504
 use cap_28p  cap_28p_0
-timestamp 1625521741
+timestamp 1640022418
 transform 1 0 210498 0 1 53878
-box -4490 -5036 28216 26860
+box -1968 -2452 24820 24898
 use 10bitdac_layout  10bitdac_layout_0
-timestamp 1625520517
+timestamp 1640022418
 transform 1 0 428 0 1 57644
 box -428 -57692 205056 54770
 << labels >>
 rlabel metal4 s 207420 57532 207420 57532 4 out
 port 1 nsew
-flabel locali s 166000 5276 166054 5432 0 FreeSans 472 0 0 0 inp2
+flabel locali s 166000 5276 166054 5432 0 FreeSans 590 0 0 0 inp2
 port 2 nsew
-flabel locali s 1224 111478 1280 111678 0 FreeSans 472 0 0 0 inp1
+flabel locali s 1224 111478 1280 111678 0 FreeSans 590 0 0 0 inp1
 port 3 nsew
-flabel locali s 166990 55698 167030 58214 0 FreeSans 472 0 0 0 d0
+flabel locali s 166990 55698 167030 58214 0 FreeSans 590 0 0 0 d0
 port 4 nsew
-flabel locali s 170054 56858 170108 57650 0 FreeSans 472 0 0 0 d1
+flabel locali s 170054 56858 170108 57650 0 FreeSans 590 0 0 0 d1
 port 5 nsew
-flabel locali s 173560 56638 173644 58478 0 FreeSans 472 0 0 0 d2
+flabel locali s 173560 56638 173644 58478 0 FreeSans 590 0 0 0 d2
 port 6 nsew
-flabel locali s 176982 54874 177048 58546 0 FreeSans 472 0 0 0 d3
+flabel locali s 176982 54874 177048 58546 0 FreeSans 590 0 0 0 d3
 port 7 nsew
-flabel locali s 179826 56758 179890 57852 0 FreeSans 472 0 0 0 d4
+flabel locali s 179826 56758 179890 57852 0 FreeSans 590 0 0 0 d4
 port 8 nsew
-flabel locali s 183168 54830 183216 58556 0 FreeSans 472 0 0 0 d5
+flabel locali s 183168 54830 183216 58556 0 FreeSans 590 0 0 0 d5
 port 9 nsew
-flabel locali s 188400 54802 188470 58594 0 FreeSans 472 0 0 0 d6
+flabel locali s 188400 54802 188470 58594 0 FreeSans 590 0 0 0 d6
 port 10 nsew
-flabel locali s 191890 54838 191964 58672 0 FreeSans 472 0 0 0 d7
+flabel locali s 191890 54838 191964 58672 0 FreeSans 590 0 0 0 d7
 port 11 nsew
-flabel locali s 196096 54788 196172 79662 0 FreeSans 472 0 0 0 d8
+flabel locali s 196096 54788 196172 79662 0 FreeSans 590 0 0 0 d8
 port 12 nsew
-flabel locali s 202790 57336 203012 57432 0 FreeSans 472 0 0 0 d9
+flabel locali s 202790 57336 203012 57432 0 FreeSans 590 0 0 0 d9
 port 13 nsew
-flabel metal2 s 196548 55424 196626 85814 0 FreeSans 472 0 0 0 gnd!
+flabel metal2 s 196548 55424 196626 85814 0 FreeSans 590 0 0 0 gnd!
 port 14 nsew
-flabel metal4 s 201970 58220 202162 83072 0 FreeSans 472 0 0 0 vdd!
+flabel metal4 s 201970 58220 202162 83072 0 FreeSans 590 0 0 0 vdd!
 port 15 nsew
 << properties >>
 string FIXED_BBOX 0 0 1748 1088
