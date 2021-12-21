@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1625520517
+timestamp 1640022418
 << nwell >>
 rect 506 622 602 1172
 rect 1210 1100 1380 1122
@@ -229,13 +229,13 @@ rect 790 633 813 667
 rect 847 633 960 667
 rect 790 622 960 633
 rect 512 182 612 324
-use INV  INV_1
-timestamp 1625520517
-transform 1 0 224 0 1 622
-box -88 -440 290 550
 use INV  INV_0
-timestamp 1625520517
+timestamp 1640022418
 transform 1 0 602 0 1 622
+box -88 -440 290 550
+use INV  INV_1
+timestamp 1640022418
+transform 1 0 224 0 1 622
 box -88 -440 290 550
 << labels >>
 rlabel metal1 s 544 1068 544 1068 4 vdd!

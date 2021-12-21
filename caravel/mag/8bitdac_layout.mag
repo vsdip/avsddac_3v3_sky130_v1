@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1625520517
+timestamp 1640022418
 << locali >>
 rect 45770 51554 90780 51562
 rect 95360 51554 96184 51558
@@ -394,22 +394,22 @@ rect 94810 27530 94888 27584
 rect 94810 27466 94820 27530
 rect 94884 27466 94888 27530
 rect 94810 27460 94888 27466
-use switch_layout  switch_layout_0
-timestamp 1625520517
-transform 1 0 93914 0 1 26310
-box 40 154 2460 1180
-use 7bitdac_layout  7bitdac_layout_1
-timestamp 1625520517
-transform 1 0 47558 0 1 2444
-box -252 -2456 45562 48686
-use 7bitdac_layout  7bitdac_layout_0
-timestamp 1625520517
-transform 1 0 252 0 1 2456
-box -252 -2456 45562 48686
 use res250_layout  res250_layout_0
-timestamp 1625520517
+timestamp 1640022418
 transform 1 0 20392 0 1 2302
 box 218 -342 484 -90
+use 7bitdac_layout  7bitdac_layout_0
+timestamp 1640022418
+transform 1 0 252 0 1 2456
+box -252 -2456 45562 48686
+use 7bitdac_layout  7bitdac_layout_1
+timestamp 1640022418
+transform 1 0 47558 0 1 2444
+box -252 -2456 45562 48686
+use switch_layout  switch_layout_0
+timestamp 1640022418
+transform 1 0 93914 0 1 26310
+box 40 154 2460 1180
 << labels >>
 rlabel locali s 20652 2264 20652 2264 4 x1_vref5
 rlabel locali s 20812 1868 20812 1868 4 x2_vref1
